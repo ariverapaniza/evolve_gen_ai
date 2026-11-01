@@ -1,0 +1,1113 @@
+{
+  "modelo": "gemini-embedding-2",
+  "dimension": 768,
+  "sha256_corpus": "c296c5fe1612e8e07e1221cbbdd61f7f30dbf787b20d930f13520155d3733b42",
+  "sha256_casos": "22f55c398b33f75f0eee89b2cfd459d2bd640cff7c424c52be6c44e546d5f68b",
+  "coleccion": "evolve_contratos_completa_v1",
+  "total_registros": 437,
+  "top_k": 5,
+  "fecha_inicio_utc": "2026-10-27T16:36:12.205503+00:00",
+  "resultados": {
+    "S01": {
+      "tipo": "simple",
+      "pregunta": "¿Qué cargo y qué funciones tiene el directivo según la cláusula primera de su contrato de alta dirección?",
+      "esperados": [
+        {
+          "documento_id": "DOC-001",
+          "seccion_inicio": "PRIMERA."
+        }
+      ],
+      "metricas": {
+        "posiciones": [
+          1
+        ],
+        "hit1": true,
+        "hit5": true,
+        "rr5": 1.0,
+        "completo": true
+      },
+      "resultados": [
+        {
+          "id": "DOC-001-00003",
+          "metadata": {
+            "pagina_fin": 2,
+            "tipo_documento": "contrato_ficticio_alta_direccion",
+            "sha256_texto_original": "74a4f2cf80f7fdf93d64ddb121c5b035bfd27e156b0cb48af80365dc5d0eed8f",
+            "seccion": "PRIMERA. Cargo y funciones",
+            "pagina_inicio": 2,
+            "fuente": "Documento aportado por el alumno (Evolve)",
+            "url_oficial": "",
+            "documento_id": "DOC-001"
+          },
+          "distancia": 0.386853
+        },
+        {
+          "id": "DOC-001-00001",
+          "metadata": {
+            "url_oficial": "",
+            "documento_id": "DOC-001",
+            "sha256_texto_original": "de398dfa31a8384e17adf5e3f70bdcff624ca20cdc736c3a399f93a28d6d2fb4",
+            "seccion": "Texto introductorio",
+            "pagina_inicio": 1,
+            "tipo_documento": "contrato_ficticio_alta_direccion",
+            "pagina_fin": 1,
+            "fuente": "Documento aportado por el alumno (Evolve)"
+          },
+          "distancia": 0.482634
+        },
+        {
+          "id": "DOC-001-00002",
+          "metadata": {
+            "documento_id": "DOC-001",
+            "seccion": "Texto introductorio",
+            "pagina_fin": 2,
+            "sha256_texto_original": "efd3bf5d9281c731c3a9d6966d27de95d143a44115c25ef2dfef2a32eaebe05a",
+            "fuente": "Documento aportado por el alumno (Evolve)",
+            "pagina_inicio": 1,
+            "tipo_documento": "contrato_ficticio_alta_direccion",
+            "url_oficial": ""
+          },
+          "distancia": 0.532869
+        },
+        {
+          "id": "DOC-001-00006",
+          "metadata": {
+            "pagina_inicio": 2,
+            "documento_id": "DOC-001",
+            "fuente": "Documento aportado por el alumno (Evolve)",
+            "url_oficial": "",
+            "seccion": "CUARTA. Dedicación y disponibilidad",
+            "sha256_texto_original": "330b58b316aa8de7f3c9c59ad3bc73cda28b7f8d8ab16be05035ea46c2d56d93",
+            "tipo_documento": "contrato_ficticio_alta_direccion",
+            "pagina_fin": 2
+          },
+          "distancia": 0.536422
+        },
+        {
+          "id": "DOC-001-00009",
+          "metadata": {
+            "tipo_documento": "contrato_ficticio_alta_direccion",
+            "seccion": "SÉPTIMA. Confidencialidad reforzada",
+            "sha256_texto_original": "58766d0c7aca7e5a1df8c57cc03e87433d47dd3a0a669b9f1ec35cfc1c8b55f0",
+            "pagina_fin": 2,
+            "url_oficial": "",
+            "documento_id": "DOC-001",
+            "pagina_inicio": 2,
+            "fuente": "Documento aportado por el alumno (Evolve)"
+          },
+          "distancia": 0.572306
+        }
+      ]
+    },
+    "S02": {
+      "tipo": "simple",
+      "pregunta": "¿Qué bonus de permanencia está previsto para el directivo y en qué periodo se devenga?",
+      "esperados": [
+        {
+          "documento_id": "DOC-001",
+          "seccion_inicio": "SEXTA."
+        }
+      ],
+      "metricas": {
+        "posiciones": [
+          1
+        ],
+        "hit1": true,
+        "hit5": true,
+        "rr5": 1.0,
+        "completo": true
+      },
+      "resultados": [
+        {
+          "id": "DOC-001-00008",
+          "metadata": {
+            "seccion": "SEXTA. Bonus de permanencia",
+            "fuente": "Documento aportado por el alumno (Evolve)",
+            "documento_id": "DOC-001",
+            "url_oficial": "",
+            "tipo_documento": "contrato_ficticio_alta_direccion",
+            "pagina_inicio": 2,
+            "sha256_texto_original": "416b9a54c89545b737a0fcae8a948575147cf70a7a52df017b798779df532540",
+            "pagina_fin": 2
+          },
+          "distancia": 0.409101
+        },
+        {
+          "id": "DOC-001-00010",
+          "metadata": {
+            "pagina_inicio": 2,
+            "sha256_texto_original": "fd679b60d797f0f854bbb1f9e80b8566d18bea470ee7621017f2402cd29d965f",
+            "seccion": "OCTAVA. Pacto de no competencia postcontractual",
+            "fuente": "Documento aportado por el alumno (Evolve)",
+            "pagina_fin": 2,
+            "documento_id": "DOC-001",
+            "tipo_documento": "contrato_ficticio_alta_direccion",
+            "url_oficial": ""
+          },
+          "distancia": 0.538636
+        },
+        {
+          "id": "DOC-001-00003",
+          "metadata": {
+            "seccion": "PRIMERA. Cargo y funciones",
+            "url_oficial": "",
+            "sha256_texto_original": "74a4f2cf80f7fdf93d64ddb121c5b035bfd27e156b0cb48af80365dc5d0eed8f",
+            "pagina_fin": 2,
+            "pagina_inicio": 2,
+            "fuente": "Documento aportado por el alumno (Evolve)",
+            "documento_id": "DOC-001",
+            "tipo_documento": "contrato_ficticio_alta_direccion"
+          },
+          "distancia": 0.578855
+        },
+        {
+          "id": "DOC-001-00006",
+          "metadata": {
+            "url_oficial": "",
+            "tipo_documento": "contrato_ficticio_alta_direccion",
+            "documento_id": "DOC-001",
+            "sha256_texto_original": "330b58b316aa8de7f3c9c59ad3bc73cda28b7f8d8ab16be05035ea46c2d56d93",
+            "seccion": "CUARTA. Dedicación y disponibilidad",
+            "pagina_fin": 2,
+            "fuente": "Documento aportado por el alumno (Evolve)",
+            "pagina_inicio": 2
+          },
+          "distancia": 0.581933
+        },
+        {
+          "id": "DOC-002-00007",
+          "metadata": {
+            "fuente": "Documento aportado por el alumno (Evolve)",
+            "pagina_inicio": 2,
+            "tipo_documento": "contrato_ficticio_indefinido",
+            "pagina_fin": 2,
+            "sha256_texto_original": "4dfd8d181735dd2df49adc4effba63810e9236b65e3078eed858c64ef85050b5",
+            "url_oficial": "",
+            "seccion": "QUINTA. Retribución",
+            "documento_id": "DOC-002"
+          },
+          "distancia": 0.599986
+        }
+      ]
+    },
+    "S03": {
+      "tipo": "simple",
+      "pregunta": "¿Qué pacto de no competencia postcontractual contiene el contrato de alta dirección?",
+      "esperados": [
+        {
+          "documento_id": "DOC-001",
+          "seccion_inicio": "OCTAVA."
+        }
+      ],
+      "metricas": {
+        "posiciones": [
+          1
+        ],
+        "hit1": true,
+        "hit5": true,
+        "rr5": 1.0,
+        "completo": true
+      },
+      "resultados": [
+        {
+          "id": "DOC-001-00010",
+          "metadata": {
+            "url_oficial": "",
+            "tipo_documento": "contrato_ficticio_alta_direccion",
+            "pagina_fin": 2,
+            "documento_id": "DOC-001",
+            "fuente": "Documento aportado por el alumno (Evolve)",
+            "pagina_inicio": 2,
+            "sha256_texto_original": "fd679b60d797f0f854bbb1f9e80b8566d18bea470ee7621017f2402cd29d965f",
+            "seccion": "OCTAVA. Pacto de no competencia postcontractual"
+          },
+          "distancia": 0.419674
+        },
+        {
+          "id": "NOR-002-00011",
+          "metadata": {
+            "url_oficial": "https://www.boe.es/buscar/pdf/1985/BOE-A-1985-17006-consolidado.pdf",
+            "fuente": "Agencia Estatal Boletín Oficial del Estado, RD 1382/1985",
+            "seccion": "Artículo 8. Pacto de no concurrencia y de permanencia en la Empresa.",
+            "sha256_texto_original": "0e44deaaf372ab1d9404c782dbacb3778f9ccec6d8be5c5a923908826c778fd3",
+            "documento_id": "NOR-002",
+            "tipo_documento": "normativa_consolidada_informativa",
+            "pagina_fin": 5,
+            "pagina_inicio": 4
+          },
+          "distancia": 0.44648
+        },
+        {
+          "id": "NOR-001-00079",
+          "metadata": {
+            "fuente": "Agencia Estatal Boletín Oficial del Estado, RDL 2/2015",
+            "url_oficial": "https://www.boe.es/buscar/pdf/2015/BOE-A-2015-11430-consolidado.pdf",
+            "pagina_fin": 26,
+            "sha256_texto_original": "5ae70730d7f245fc73823a7229d28e853bd2bff3559385083e5120b20a0beb7f",
+            "seccion": "Artículo 21. Pacto de no concurrencia y de permanencia en la empresa.",
+            "tipo_documento": "normativa_consolidada_informativa",
+            "pagina_inicio": 26,
+            "documento_id": "NOR-001"
+          },
+          "distancia": 0.552403
+        },
+        {
+          "id": "NOR-002-00007",
+          "metadata": {
+            "documento_id": "NOR-002",
+            "seccion": "Artículo 4. Forma y contenido del contrato.",
+            "fuente": "Agencia Estatal Boletín Oficial del Estado, RD 1382/1985",
+            "sha256_texto_original": "81add821c6abc535c136ebbd9d17067b1e0e2510076a78d56e499dc10e312ed0",
+            "tipo_documento": "normativa_consolidada_informativa",
+            "pagina_inicio": 4,
+            "url_oficial": "https://www.boe.es/buscar/pdf/1985/BOE-A-1985-17006-consolidado.pdf",
+            "pagina_fin": 4
+          },
+          "distancia": 0.574211
+        },
+        {
+          "id": "DOC-001-00009",
+          "metadata": {
+            "tipo_documento": "contrato_ficticio_alta_direccion",
+            "pagina_fin": 2,
+            "pagina_inicio": 2,
+            "fuente": "Documento aportado por el alumno (Evolve)",
+            "sha256_texto_original": "58766d0c7aca7e5a1df8c57cc03e87433d47dd3a0a669b9f1ec35cfc1c8b55f0",
+            "seccion": "SÉPTIMA. Confidencialidad reforzada",
+            "url_oficial": "",
+            "documento_id": "DOC-001"
+          },
+          "distancia": 0.576478
+        }
+      ]
+    },
+    "S04": {
+      "tipo": "simple",
+      "pregunta": "¿Qué porcentaje de teletrabajo permite el contrato del analista de datos?",
+      "esperados": [
+        {
+          "documento_id": "DOC-002",
+          "seccion_inicio": "SEGUNDA."
+        }
+      ],
+      "metricas": {
+        "posiciones": [
+          2
+        ],
+        "hit1": false,
+        "hit5": true,
+        "rr5": 0.5,
+        "completo": true
+      },
+      "resultados": [
+        {
+          "id": "DOC-002-00003",
+          "metadata": {
+            "seccion": "PRIMERA. Puesto de trabajo",
+            "pagina_inicio": 2,
+            "url_oficial": "",
+            "pagina_fin": 2,
+            "sha256_texto_original": "3be17797c20a1364172678cb831a8cd98b3728f7d268d3acf1fc6e5ffbc5ef41",
+            "documento_id": "DOC-002",
+            "fuente": "Documento aportado por el alumno (Evolve)",
+            "tipo_documento": "contrato_ficticio_indefinido"
+          },
+          "distancia": 0.45909
+        },
+        {
+          "id": "DOC-002-00004",
+          "metadata": {
+            "url_oficial": "",
+            "pagina_fin": 2,
+            "documento_id": "DOC-002",
+            "fuente": "Documento aportado por el alumno (Evolve)",
+            "sha256_texto_original": "1587aa49ede62c964a1692fe7044032e4096aa5a606fd68ec872571b55830ba0",
+            "tipo_documento": "contrato_ficticio_indefinido",
+            "pagina_inicio": 2,
+            "seccion": "SEGUNDA. Lugar y modalidad de trabajo"
+          },
+          "distancia": 0.5162
+        },
+        {
+          "id": "DOC-002-00001",
+          "metadata": {
+            "documento_id": "DOC-002",
+            "sha256_texto_original": "01a9222abf968ee06dffaa638fbfe33bba6acf8690a2dae8847348e68f358b8b",
+            "url_oficial": "",
+            "pagina_inicio": 1,
+            "pagina_fin": 1,
+            "fuente": "Documento aportado por el alumno (Evolve)",
+            "seccion": "Texto introductorio",
+            "tipo_documento": "contrato_ficticio_indefinido"
+          },
+          "distancia": 0.609618
+        },
+        {
+          "id": "DOC-002-00006",
+          "metadata": {
+            "url_oficial": "",
+            "pagina_inicio": 2,
+            "tipo_documento": "contrato_ficticio_indefinido",
+            "fuente": "Documento aportado por el alumno (Evolve)",
+            "sha256_texto_original": "3436afe743123167d9317516fe7d5641d28feccbdc98afd978e4746faa54bb0f",
+            "pagina_fin": 2,
+            "seccion": "CUARTA. Jornada",
+            "documento_id": "DOC-002"
+          },
+          "distancia": 0.623171
+        },
+        {
+          "id": "DOC-001-00003",
+          "metadata": {
+            "url_oficial": "",
+            "seccion": "PRIMERA. Cargo y funciones",
+            "pagina_inicio": 2,
+            "sha256_texto_original": "74a4f2cf80f7fdf93d64ddb121c5b035bfd27e156b0cb48af80365dc5d0eed8f",
+            "tipo_documento": "contrato_ficticio_alta_direccion",
+            "pagina_fin": 2,
+            "documento_id": "DOC-001",
+            "fuente": "Documento aportado por el alumno (Evolve)"
+          },
+          "distancia": 0.662184
+        }
+      ]
+    },
+    "S05": {
+      "tipo": "simple",
+      "pregunta": "¿Cuántos días laborables de vacaciones establece el contrato indefinido?",
+      "esperados": [
+        {
+          "documento_id": "DOC-002",
+          "seccion_inicio": "SEXTA."
+        }
+      ],
+      "metricas": {
+        "posiciones": [
+          1
+        ],
+        "hit1": true,
+        "hit5": true,
+        "rr5": 1.0,
+        "completo": true
+      },
+      "resultados": [
+        {
+          "id": "DOC-002-00008",
+          "metadata": {
+            "pagina_fin": 2,
+            "fuente": "Documento aportado por el alumno (Evolve)",
+            "sha256_texto_original": "d983a3f3a1503e5b8bdffbf8e95dea874820174741468b4f7848ed9764d9c3fa",
+            "pagina_inicio": 2,
+            "url_oficial": "",
+            "seccion": "SEXTA. Vacaciones",
+            "documento_id": "DOC-002",
+            "tipo_documento": "contrato_ficticio_indefinido"
+          },
+          "distancia": 0.42516
+        },
+        {
+          "id": "DOC-002-00001",
+          "metadata": {
+            "fuente": "Documento aportado por el alumno (Evolve)",
+            "documento_id": "DOC-002",
+            "pagina_fin": 1,
+            "seccion": "Texto introductorio",
+            "pagina_inicio": 1,
+            "tipo_documento": "contrato_ficticio_indefinido",
+            "url_oficial": "",
+            "sha256_texto_original": "01a9222abf968ee06dffaa638fbfe33bba6acf8690a2dae8847348e68f358b8b"
+          },
+          "distancia": 0.535056
+        },
+        {
+          "id": "NOR-001-00136",
+          "metadata": {
+            "pagina_inicio": 39,
+            "pagina_fin": 39,
+            "url_oficial": "https://www.boe.es/buscar/pdf/2015/BOE-A-2015-11430-consolidado.pdf",
+            "fuente": "Agencia Estatal Boletín Oficial del Estado, RDL 2/2015",
+            "tipo_documento": "normativa_consolidada_informativa",
+            "seccion": "Artículo 38. Vacaciones anuales.",
+            "documento_id": "NOR-001",
+            "sha256_texto_original": "070b390f3614321afe6f2520b0ad17850d7cbe099a3d3b7a2061e4016da8c6e7"
+          },
+          "distancia": 0.537045
+        },
+        {
+          "id": "DOC-002-00005",
+          "metadata": {
+            "pagina_fin": 2,
+            "url_oficial": "",
+            "documento_id": "DOC-002",
+            "sha256_texto_original": "3485af13647f5303172083f42d893f743bc92bd659b4312084b9d662497416a6",
+            "tipo_documento": "contrato_ficticio_indefinido",
+            "seccion": "TERCERA. Duración",
+            "pagina_inicio": 2,
+            "fuente": "Documento aportado por el alumno (Evolve)"
+          },
+          "distancia": 0.550579
+        },
+        {
+          "id": "NOR-001-00055",
+          "metadata": {
+            "documento_id": "NOR-001",
+            "seccion": "Artículo 15. Duración del contrato de trabajo.",
+            "sha256_texto_original": "e6b03d24a851b43464f9fbbec3bd31de5c40e17b696151eb2410f76978b38b1a",
+            "tipo_documento": "normativa_consolidada_informativa",
+            "pagina_inicio": 20,
+            "url_oficial": "https://www.boe.es/buscar/pdf/2015/BOE-A-2015-11430-consolidado.pdf",
+            "pagina_fin": 21,
+            "fuente": "Agencia Estatal Boletín Oficial del Estado, RDL 2/2015"
+          },
+          "distancia": 0.556089
+        }
+      ]
+    },
+    "S06": {
+      "tipo": "simple",
+      "pregunta": "¿Qué periodo de prueba se pacta en el contrato indefinido del analista de datos?",
+      "esperados": [
+        {
+          "documento_id": "DOC-002",
+          "seccion_inicio": "SÉPTIMA."
+        }
+      ],
+      "metricas": {
+        "posiciones": [
+          3
+        ],
+        "hit1": false,
+        "hit5": true,
+        "rr5": 0.333333,
+        "completo": true
+      },
+      "resultados": [
+        {
+          "id": "DOC-002-00003",
+          "metadata": {
+            "documento_id": "DOC-002",
+            "pagina_fin": 2,
+            "tipo_documento": "contrato_ficticio_indefinido",
+            "pagina_inicio": 2,
+            "seccion": "PRIMERA. Puesto de trabajo",
+            "fuente": "Documento aportado por el alumno (Evolve)",
+            "url_oficial": "",
+            "sha256_texto_original": "3be17797c20a1364172678cb831a8cd98b3728f7d268d3acf1fc6e5ffbc5ef41"
+          },
+          "distancia": 0.501653
+        },
+        {
+          "id": "DOC-002-00001",
+          "metadata": {
+            "seccion": "Texto introductorio",
+            "pagina_fin": 1,
+            "tipo_documento": "contrato_ficticio_indefinido",
+            "sha256_texto_original": "01a9222abf968ee06dffaa638fbfe33bba6acf8690a2dae8847348e68f358b8b",
+            "pagina_inicio": 1,
+            "documento_id": "DOC-002",
+            "fuente": "Documento aportado por el alumno (Evolve)",
+            "url_oficial": ""
+          },
+          "distancia": 0.503015
+        },
+        {
+          "id": "DOC-002-00009",
+          "metadata": {
+            "sha256_texto_original": "f2d5311d71265188251e8846a7a4faf86f2cfdb0242c2204597e3f0ef7059a79",
+            "fuente": "Documento aportado por el alumno (Evolve)",
+            "tipo_documento": "contrato_ficticio_indefinido",
+            "pagina_fin": 2,
+            "seccion": "SÉPTIMA. Periodo de prueba",
+            "documento_id": "DOC-002",
+            "pagina_inicio": 2,
+            "url_oficial": ""
+          },
+          "distancia": 0.57139
+        },
+        {
+          "id": "DOC-002-00005",
+          "metadata": {
+            "pagina_inicio": 2,
+            "tipo_documento": "contrato_ficticio_indefinido",
+            "url_oficial": "",
+            "fuente": "Documento aportado por el alumno (Evolve)",
+            "pagina_fin": 2,
+            "sha256_texto_original": "3485af13647f5303172083f42d893f743bc92bd659b4312084b9d662497416a6",
+            "seccion": "TERCERA. Duración",
+            "documento_id": "DOC-002"
+          },
+          "distancia": 0.621953
+        },
+        {
+          "id": "NOR-001-00053",
+          "metadata": {
+            "pagina_inicio": 20,
+            "tipo_documento": "normativa_consolidada_informativa",
+            "pagina_fin": 20,
+            "url_oficial": "https://www.boe.es/buscar/pdf/2015/BOE-A-2015-11430-consolidado.pdf",
+            "fuente": "Agencia Estatal Boletín Oficial del Estado, RDL 2/2015",
+            "documento_id": "NOR-001",
+            "seccion": "Artículo 14. Periodo de prueba.",
+            "sha256_texto_original": "c5b47896698b0cbe44284e6343cbf52ddcfc50a19761f32854b4db12e2ffe43e"
+          },
+          "distancia": 0.632544
+        }
+      ]
+    },
+    "S07": {
+      "tipo": "simple",
+      "pregunta": "¿Qué establece el artículo 15 del Estatuto de los Trabajadores sobre la duración de los contratos?",
+      "esperados": [
+        {
+          "documento_id": "NOR-001",
+          "seccion_inicio": "Artículo 15."
+        }
+      ],
+      "metricas": {
+        "posiciones": [
+          1
+        ],
+        "hit1": true,
+        "hit5": true,
+        "rr5": 1.0,
+        "completo": true
+      },
+      "resultados": [
+        {
+          "id": "NOR-001-00055",
+          "metadata": {
+            "sha256_texto_original": "e6b03d24a851b43464f9fbbec3bd31de5c40e17b696151eb2410f76978b38b1a",
+            "fuente": "Agencia Estatal Boletín Oficial del Estado, RDL 2/2015",
+            "url_oficial": "https://www.boe.es/buscar/pdf/2015/BOE-A-2015-11430-consolidado.pdf",
+            "pagina_inicio": 20,
+            "documento_id": "NOR-001",
+            "pagina_fin": 21,
+            "seccion": "Artículo 15. Duración del contrato de trabajo.",
+            "tipo_documento": "normativa_consolidada_informativa"
+          },
+          "distancia": 0.318754
+        },
+        {
+          "id": "NOR-001-00060",
+          "metadata": {
+            "fuente": "Agencia Estatal Boletín Oficial del Estado, RDL 2/2015",
+            "seccion": "Artículo 15. Duración del contrato de trabajo.",
+            "url_oficial": "https://www.boe.es/buscar/pdf/2015/BOE-A-2015-11430-consolidado.pdf",
+            "pagina_inicio": 22,
+            "documento_id": "NOR-001",
+            "pagina_fin": 22,
+            "sha256_texto_original": "099c55c3f37612c4ea718bf53d2e74dfcb3b9d0c4e587a015940269f6b0ff753",
+            "tipo_documento": "normativa_consolidada_informativa"
+          },
+          "distancia": 0.376473
+        },
+        {
+          "id": "NOR-001-00059",
+          "metadata": {
+            "documento_id": "NOR-001",
+            "pagina_fin": 22,
+            "pagina_inicio": 21,
+            "tipo_documento": "normativa_consolidada_informativa",
+            "url_oficial": "https://www.boe.es/buscar/pdf/2015/BOE-A-2015-11430-consolidado.pdf",
+            "seccion": "Artículo 15. Duración del contrato de trabajo.",
+            "sha256_texto_original": "cc9c5afdd29909593d8b8fb95a62f64a93b82a155cc7b35da3861c491f429b62",
+            "fuente": "Agencia Estatal Boletín Oficial del Estado, RDL 2/2015"
+          },
+          "distancia": 0.376502
+        },
+        {
+          "id": "NOR-001-00061",
+          "metadata": {
+            "tipo_documento": "normativa_consolidada_informativa",
+            "pagina_inicio": 22,
+            "pagina_fin": 22,
+            "documento_id": "NOR-001",
+            "seccion": "Artículo 15. Duración del contrato de trabajo.",
+            "url_oficial": "https://www.boe.es/buscar/pdf/2015/BOE-A-2015-11430-consolidado.pdf",
+            "fuente": "Agencia Estatal Boletín Oficial del Estado, RDL 2/2015",
+            "sha256_texto_original": "01c33893637cd887dc24351a01560164d7a5d99e779716a5be98558a9ead27f0"
+          },
+          "distancia": 0.383798
+        },
+        {
+          "id": "NOR-001-00058",
+          "metadata": {
+            "tipo_documento": "normativa_consolidada_informativa",
+            "pagina_fin": 21,
+            "fuente": "Agencia Estatal Boletín Oficial del Estado, RDL 2/2015",
+            "documento_id": "NOR-001",
+            "pagina_inicio": 21,
+            "sha256_texto_original": "14cd7cce256a0da5f3642fc59b6d69659f2f46393a1d82e474a6571e1f0a4887",
+            "url_oficial": "https://www.boe.es/buscar/pdf/2015/BOE-A-2015-11430-consolidado.pdf",
+            "seccion": "Artículo 15. Duración del contrato de trabajo."
+          },
+          "distancia": 0.393452
+        }
+      ]
+    },
+    "S08": {
+      "tipo": "simple",
+      "pregunta": "¿Qué dispone el artículo 38 del Estatuto de los Trabajadores sobre las vacaciones anuales?",
+      "esperados": [
+        {
+          "documento_id": "NOR-001",
+          "seccion_inicio": "Artículo 38."
+        }
+      ],
+      "metricas": {
+        "posiciones": [
+          1
+        ],
+        "hit1": true,
+        "hit5": true,
+        "rr5": 1.0,
+        "completo": true
+      },
+      "resultados": [
+        {
+          "id": "NOR-001-00136",
+          "metadata": {
+            "pagina_inicio": 39,
+            "pagina_fin": 39,
+            "seccion": "Artículo 38. Vacaciones anuales.",
+            "tipo_documento": "normativa_consolidada_informativa",
+            "fuente": "Agencia Estatal Boletín Oficial del Estado, RDL 2/2015",
+            "sha256_texto_original": "070b390f3614321afe6f2520b0ad17850d7cbe099a3d3b7a2061e4016da8c6e7",
+            "url_oficial": "https://www.boe.es/buscar/pdf/2015/BOE-A-2015-11430-consolidado.pdf",
+            "documento_id": "NOR-001"
+          },
+          "distancia": 0.331107
+        },
+        {
+          "id": "NOR-001-00137",
+          "metadata": {
+            "url_oficial": "https://www.boe.es/buscar/pdf/2015/BOE-A-2015-11430-consolidado.pdf",
+            "pagina_inicio": 39,
+            "documento_id": "NOR-001",
+            "seccion": "Artículo 38. Vacaciones anuales.",
+            "tipo_documento": "normativa_consolidada_informativa",
+            "sha256_texto_original": "ab2f9b4ae9f127f51e6fa74772fc87c4fa6baa9b13fe5e44a0dd93b1d24a0236",
+            "pagina_fin": 40,
+            "fuente": "Agencia Estatal Boletín Oficial del Estado, RDL 2/2015"
+          },
+          "distancia": 0.4164
+        },
+        {
+          "id": "NOR-001-00122",
+          "metadata": {
+            "documento_id": "NOR-001",
+            "pagina_inicio": 36,
+            "url_oficial": "https://www.boe.es/buscar/pdf/2015/BOE-A-2015-11430-consolidado.pdf",
+            "fuente": "Agencia Estatal Boletín Oficial del Estado, RDL 2/2015",
+            "pagina_fin": 36,
+            "seccion": "Artículo 37. Descanso semanal, fiestas y permisos.",
+            "sha256_texto_original": "196641870c57f53d5a9168dd468eb9cb939013efb9de780c9b8b57cde40c2113",
+            "tipo_documento": "normativa_consolidada_informativa"
+          },
+          "distancia": 0.494764
+        },
+        {
+          "id": "NOR-001-00123",
+          "metadata": {
+            "sha256_texto_original": "5489a51b3c6ad1ec7e7f1c62224bb7e984faeb1e1f7463b671ecda0353f3efc2",
+            "documento_id": "NOR-001",
+            "seccion": "Artículo 37. Descanso semanal, fiestas y permisos.",
+            "url_oficial": "https://www.boe.es/buscar/pdf/2015/BOE-A-2015-11430-consolidado.pdf",
+            "pagina_fin": 36,
+            "tipo_documento": "normativa_consolidada_informativa",
+            "pagina_inicio": 36,
+            "fuente": "Agencia Estatal Boletín Oficial del Estado, RDL 2/2015"
+          },
+          "distancia": 0.549109
+        },
+        {
+          "id": "NOR-001-00109",
+          "metadata": {
+            "documento_id": "NOR-001",
+            "pagina_fin": 33,
+            "url_oficial": "https://www.boe.es/buscar/pdf/2015/BOE-A-2015-11430-consolidado.pdf",
+            "sha256_texto_original": "dedc711c388907bb5557eb580123146e8b45be2e07ab7f32d017543fcdd211fc",
+            "tipo_documento": "normativa_consolidada_informativa",
+            "pagina_inicio": 33,
+            "seccion": "Artículo 34. Jornada.",
+            "fuente": "Agencia Estatal Boletín Oficial del Estado, RDL 2/2015"
+          },
+          "distancia": 0.550203
+        }
+      ]
+    },
+    "S09": {
+      "tipo": "simple",
+      "pregunta": "¿Cuál es el ámbito de aplicación del artículo 1 del Real Decreto 1382/1985 sobre alta dirección?",
+      "esperados": [
+        {
+          "documento_id": "NOR-002",
+          "seccion_inicio": "Artículo 1."
+        }
+      ],
+      "metricas": {
+        "posiciones": [
+          1
+        ],
+        "hit1": true,
+        "hit5": true,
+        "rr5": 1.0,
+        "completo": true
+      },
+      "resultados": [
+        {
+          "id": "NOR-002-00003",
+          "metadata": {
+            "pagina_fin": 3,
+            "documento_id": "NOR-002",
+            "tipo_documento": "normativa_consolidada_informativa",
+            "seccion": "Artículo 1. Ambito de aplicación.",
+            "url_oficial": "https://www.boe.es/buscar/pdf/1985/BOE-A-1985-17006-consolidado.pdf",
+            "fuente": "Agencia Estatal Boletín Oficial del Estado, RD 1382/1985",
+            "pagina_inicio": 3,
+            "sha256_texto_original": "bbf1ea8e6a99e32c85b9d419f5b03a2443d73e2f2c35c6279d0459e88e5dd540"
+          },
+          "distancia": 0.352685
+        },
+        {
+          "id": "NOR-002-00019",
+          "metadata": {
+            "seccion": "Artículo 14. Jurisdicción competente.",
+            "sha256_texto_original": "86449b978ef5d22128a32b93126153358599217fd0c54dfb45e4dd4064b833e6",
+            "url_oficial": "https://www.boe.es/buscar/pdf/1985/BOE-A-1985-17006-consolidado.pdf",
+            "fuente": "Agencia Estatal Boletín Oficial del Estado, RD 1382/1985",
+            "pagina_inicio": 6,
+            "documento_id": "NOR-002",
+            "tipo_documento": "normativa_consolidada_informativa",
+            "pagina_fin": 6
+          },
+          "distancia": 0.51815
+        },
+        {
+          "id": "NOR-002-00002",
+          "metadata": {
+            "fuente": "Agencia Estatal Boletín Oficial del Estado, RD 1382/1985",
+            "sha256_texto_original": "5f0fba7d8dd492b772f08ac064e82bcbe0aadb3f18ec3a309d51022dc847de0a",
+            "seccion": "Texto introductorio",
+            "documento_id": "NOR-002",
+            "pagina_fin": 3,
+            "pagina_inicio": 3,
+            "tipo_documento": "normativa_consolidada_informativa",
+            "url_oficial": "https://www.boe.es/buscar/pdf/1985/BOE-A-1985-17006-consolidado.pdf"
+          },
+          "distancia": 0.520221
+        },
+        {
+          "id": "NOR-002-00001",
+          "metadata": {
+            "documento_id": "NOR-002",
+            "pagina_fin": 3,
+            "seccion": "Texto introductorio",
+            "sha256_texto_original": "ec7c97f8a9dc75d50244f13a4e45e98bcc269e8f5ba2a94b5116c63f33179ba5",
+            "pagina_inicio": 3,
+            "tipo_documento": "normativa_consolidada_informativa",
+            "url_oficial": "https://www.boe.es/buscar/pdf/1985/BOE-A-1985-17006-consolidado.pdf",
+            "fuente": "Agencia Estatal Boletín Oficial del Estado, RD 1382/1985"
+          },
+          "distancia": 0.52387
+        },
+        {
+          "id": "NOR-002-00006",
+          "metadata": {
+            "documento_id": "NOR-002",
+            "sha256_texto_original": "ae4f933124d5f93b739b480716de69a04e3d6220e1ff2174e853d5690eccbcfd",
+            "tipo_documento": "normativa_consolidada_informativa",
+            "pagina_inicio": 4,
+            "pagina_fin": 4,
+            "fuente": "Agencia Estatal Boletín Oficial del Estado, RD 1382/1985",
+            "seccion": "Artículo 3. Fuentes y criterios reguladores.",
+            "url_oficial": "https://www.boe.es/buscar/pdf/1985/BOE-A-1985-17006-consolidado.pdf"
+          },
+          "distancia": 0.531757
+        }
+      ]
+    },
+    "S10": {
+      "tipo": "simple",
+      "pregunta": "¿Qué regula el artículo 11 del Real Decreto 1382/1985 respecto a la extinción del contrato por voluntad del empresario?",
+      "esperados": [
+        {
+          "documento_id": "NOR-002",
+          "seccion_inicio": "Artículo 11."
+        }
+      ],
+      "metricas": {
+        "posiciones": [
+          1
+        ],
+        "hit1": true,
+        "hit5": true,
+        "rr5": 1.0,
+        "completo": true
+      },
+      "resultados": [
+        {
+          "id": "NOR-002-00015",
+          "metadata": {
+            "pagina_fin": 6,
+            "seccion": "Artículo 11. Extinción del contrato por voluntad del empresario.",
+            "url_oficial": "https://www.boe.es/buscar/pdf/1985/BOE-A-1985-17006-consolidado.pdf",
+            "pagina_inicio": 5,
+            "tipo_documento": "normativa_consolidada_informativa",
+            "fuente": "Agencia Estatal Boletín Oficial del Estado, RD 1382/1985",
+            "sha256_texto_original": "deb00149e9514c890f0d237416702aa328e6b5bdcd53dfcb7a7bedc14d746810",
+            "documento_id": "NOR-002"
+          },
+          "distancia": 0.379478
+        },
+        {
+          "id": "NOR-002-00016",
+          "metadata": {
+            "pagina_fin": 6,
+            "sha256_texto_original": "255e56694f932ed6b3cdd267e1fac2575cd79b716198efe937121dcbe792af4b",
+            "documento_id": "NOR-002",
+            "seccion": "Artículo 11. Extinción del contrato por voluntad del empresario.",
+            "url_oficial": "https://www.boe.es/buscar/pdf/1985/BOE-A-1985-17006-consolidado.pdf",
+            "fuente": "Agencia Estatal Boletín Oficial del Estado, RD 1382/1985",
+            "pagina_inicio": 6,
+            "tipo_documento": "normativa_consolidada_informativa"
+          },
+          "distancia": 0.41776
+        },
+        {
+          "id": "NOR-002-00013",
+          "metadata": {
+            "pagina_inicio": 5,
+            "documento_id": "NOR-002",
+            "fuente": "Agencia Estatal Boletín Oficial del Estado, RD 1382/1985",
+            "seccion": "Artículo 10. Extinción por voluntad del alto directivo.",
+            "url_oficial": "https://www.boe.es/buscar/pdf/1985/BOE-A-1985-17006-consolidado.pdf",
+            "sha256_texto_original": "5554ae1ea1e3ac94d86753709bc9e7d91da5efde4a0f93ce7ba76d83c3ac3606",
+            "pagina_fin": 5,
+            "tipo_documento": "normativa_consolidada_informativa"
+          },
+          "distancia": 0.509521
+        },
+        {
+          "id": "NOR-002-00014",
+          "metadata": {
+            "seccion": "Artículo 10. Extinción por voluntad del alto directivo.",
+            "url_oficial": "https://www.boe.es/buscar/pdf/1985/BOE-A-1985-17006-consolidado.pdf",
+            "pagina_inicio": 5,
+            "sha256_texto_original": "f09fc083c52c793148d27368eb7323239c0d3479a6436928912e42dc871e65b9",
+            "tipo_documento": "normativa_consolidada_informativa",
+            "documento_id": "NOR-002",
+            "pagina_fin": 5,
+            "fuente": "Agencia Estatal Boletín Oficial del Estado, RD 1382/1985"
+          },
+          "distancia": 0.530017
+        },
+        {
+          "id": "DOC-001-00013",
+          "metadata": {
+            "pagina_fin": 3,
+            "fuente": "Documento aportado por el alumno (Evolve)",
+            "documento_id": "DOC-001",
+            "tipo_documento": "contrato_ficticio_alta_direccion",
+            "sha256_texto_original": "aaaba75cfa429f7717b2a82dacf08bf1c1c9f852f9088f4481e753712e11a8c0",
+            "pagina_inicio": 3,
+            "url_oficial": "",
+            "seccion": "UNDÉCIMA. Legislación aplicable"
+          },
+          "distancia": 0.546509
+        }
+      ]
+    },
+    "M01": {
+      "tipo": "multiple",
+      "pregunta": "Compara las fechas de inicio de los contratos de alta dirección y del analista de datos indefinido.",
+      "esperados": [
+        {
+          "documento_id": "DOC-001",
+          "seccion_inicio": "TERCERA."
+        },
+        {
+          "documento_id": "DOC-002",
+          "seccion_inicio": "TERCERA."
+        }
+      ],
+      "metricas": {
+        "posiciones": [
+          null,
+          4
+        ],
+        "cobertura_fuentes": 1,
+        "total_fuentes": 2,
+        "completo": false
+      },
+      "resultados": [
+        {
+          "id": "DOC-001-00001",
+          "metadata": {
+            "pagina_inicio": 1,
+            "pagina_fin": 1,
+            "sha256_texto_original": "de398dfa31a8384e17adf5e3f70bdcff624ca20cdc736c3a399f93a28d6d2fb4",
+            "tipo_documento": "contrato_ficticio_alta_direccion",
+            "url_oficial": "",
+            "fuente": "Documento aportado por el alumno (Evolve)",
+            "documento_id": "DOC-001",
+            "seccion": "Texto introductorio"
+          },
+          "distancia": 0.502934
+        },
+        {
+          "id": "DOC-002-00001",
+          "metadata": {
+            "url_oficial": "",
+            "seccion": "Texto introductorio",
+            "documento_id": "DOC-002",
+            "sha256_texto_original": "01a9222abf968ee06dffaa638fbfe33bba6acf8690a2dae8847348e68f358b8b",
+            "pagina_inicio": 1,
+            "fuente": "Documento aportado por el alumno (Evolve)",
+            "tipo_documento": "contrato_ficticio_indefinido",
+            "pagina_fin": 1
+          },
+          "distancia": 0.535906
+        },
+        {
+          "id": "DOC-001-00003",
+          "metadata": {
+            "url_oficial": "",
+            "tipo_documento": "contrato_ficticio_alta_direccion",
+            "seccion": "PRIMERA. Cargo y funciones",
+            "sha256_texto_original": "74a4f2cf80f7fdf93d64ddb121c5b035bfd27e156b0cb48af80365dc5d0eed8f",
+            "pagina_fin": 2,
+            "fuente": "Documento aportado por el alumno (Evolve)",
+            "pagina_inicio": 2,
+            "documento_id": "DOC-001"
+          },
+          "distancia": 0.542716
+        },
+        {
+          "id": "DOC-002-00005",
+          "metadata": {
+            "seccion": "TERCERA. Duración",
+            "sha256_texto_original": "3485af13647f5303172083f42d893f743bc92bd659b4312084b9d662497416a6",
+            "tipo_documento": "contrato_ficticio_indefinido",
+            "url_oficial": "",
+            "documento_id": "DOC-002",
+            "fuente": "Documento aportado por el alumno (Evolve)",
+            "pagina_inicio": 2,
+            "pagina_fin": 2
+          },
+          "distancia": 0.559829
+        },
+        {
+          "id": "DOC-002-00003",
+          "metadata": {
+            "documento_id": "DOC-002",
+            "seccion": "PRIMERA. Puesto de trabajo",
+            "tipo_documento": "contrato_ficticio_indefinido",
+            "sha256_texto_original": "3be17797c20a1364172678cb831a8cd98b3728f7d268d3acf1fc6e5ffbc5ef41",
+            "pagina_inicio": 2,
+            "pagina_fin": 2,
+            "fuente": "Documento aportado por el alumno (Evolve)",
+            "url_oficial": ""
+          },
+          "distancia": 0.568536
+        }
+      ]
+    },
+    "M02": {
+      "tipo": "multiple",
+      "pregunta": "Compara las vacaciones pactadas en el contrato indefinido con las vacaciones anuales del artículo 38 del Estatuto de los Trabajadores.",
+      "esperados": [
+        {
+          "documento_id": "DOC-002",
+          "seccion_inicio": "SEXTA."
+        },
+        {
+          "documento_id": "NOR-001",
+          "seccion_inicio": "Artículo 38."
+        }
+      ],
+      "metricas": {
+        "posiciones": [
+          2,
+          1
+        ],
+        "cobertura_fuentes": 2,
+        "total_fuentes": 2,
+        "completo": true
+      },
+      "resultados": [
+        {
+          "id": "NOR-001-00136",
+          "metadata": {
+            "url_oficial": "https://www.boe.es/buscar/pdf/2015/BOE-A-2015-11430-consolidado.pdf",
+            "pagina_inicio": 39,
+            "documento_id": "NOR-001",
+            "fuente": "Agencia Estatal Boletín Oficial del Estado, RDL 2/2015",
+            "sha256_texto_original": "070b390f3614321afe6f2520b0ad17850d7cbe099a3d3b7a2061e4016da8c6e7",
+            "pagina_fin": 39,
+            "seccion": "Artículo 38. Vacaciones anuales.",
+            "tipo_documento": "normativa_consolidada_informativa"
+          },
+          "distancia": 0.447796
+        },
+        {
+          "id": "DOC-002-00008",
+          "metadata": {
+            "sha256_texto_original": "d983a3f3a1503e5b8bdffbf8e95dea874820174741468b4f7848ed9764d9c3fa",
+            "documento_id": "DOC-002",
+            "url_oficial": "",
+            "tipo_documento": "contrato_ficticio_indefinido",
+            "fuente": "Documento aportado por el alumno (Evolve)",
+            "pagina_fin": 2,
+            "seccion": "SEXTA. Vacaciones",
+            "pagina_inicio": 2
+          },
+          "distancia": 0.494954
+        },
+        {
+          "id": "NOR-001-00137",
+          "metadata": {
+            "documento_id": "NOR-001",
+            "fuente": "Agencia Estatal Boletín Oficial del Estado, RDL 2/2015",
+            "seccion": "Artículo 38. Vacaciones anuales.",
+            "pagina_fin": 40,
+            "url_oficial": "https://www.boe.es/buscar/pdf/2015/BOE-A-2015-11430-consolidado.pdf",
+            "pagina_inicio": 39,
+            "tipo_documento": "normativa_consolidada_informativa",
+            "sha256_texto_original": "ab2f9b4ae9f127f51e6fa74772fc87c4fa6baa9b13fe5e44a0dd93b1d24a0236"
+          },
+          "distancia": 0.516553
+        },
+        {
+          "id": "DOC-002-00001",
+          "metadata": {
+            "fuente": "Documento aportado por el alumno (Evolve)",
+            "pagina_inicio": 1,
+            "sha256_texto_original": "01a9222abf968ee06dffaa638fbfe33bba6acf8690a2dae8847348e68f358b8b",
+            "documento_id": "DOC-002",
+            "url_oficial": "",
+            "pagina_fin": 1,
+            "tipo_documento": "contrato_ficticio_indefinido",
+            "seccion": "Texto introductorio"
+          },
+          "distancia": 0.585588
+        },
+        {
+          "id": "NOR-001-00122",
+          "metadata": {
+            "pagina_fin": 36,
+            "documento_id": "NOR-001",
+            "seccion": "Artículo 37. Descanso semanal, fiestas y permisos.",
+            "pagina_inicio": 36,
+            "tipo_documento": "normativa_consolidada_informativa",
+            "fuente": "Agencia Estatal Boletín Oficial del Estado, RDL 2/2015",
+            "sha256_texto_original": "196641870c57f53d5a9168dd468eb9cb939013efb9de780c9b8b57cde40c2113",
+            "url_oficial": "https://www.boe.es/buscar/pdf/2015/BOE-A-2015-11430-consolidado.pdf"
+          },
+          "distancia": 0.593661
+        }
+      ]
+    }
+  },
+  "fecha_actualizacion_utc": "2026-10-27T16:37:26.296923+00:00"
+}

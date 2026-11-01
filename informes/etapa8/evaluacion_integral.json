@@ -1,0 +1,469 @@
+{
+  "etapa": 8,
+  "fecha_utc": "2026-10-27T17:52:51.729720+00:00",
+  "modelo_llm": "gemini-3.5-flash-lite",
+  "modelo_embeddings": "gemini-embedding-2",
+  "alcance": "evaluación académica exploratoria, no precisión estadística ni validación jurídica",
+  "resultados": [
+    {
+      "id": "D01",
+      "sesion": "eval_directa",
+      "pregunta": "Hola",
+      "pregunta_interpretada": "Hola",
+      "ruta_esperada": "directa",
+      "ruta_real": "directa",
+      "usa_memoria_esperado": false,
+      "usa_memoria_real": false,
+      "fuentes_dirigidas": [],
+      "nodos": [
+        "preparar_contexto",
+        "clasificar",
+        "respuesta_directa",
+        "registrar_turno"
+      ],
+      "respuesta": "Soy un asistente académico para consultar dos contratos ficticios y el Estatuto de los Trabajadores y RD 1382/1985. Puedo comparar documentos y citar páginas PDF. No sustituyo el asesoramiento jurídico.",
+      "referencias": [],
+      "estado_estructural": "OK",
+      "fallos": [],
+      "evidencias_esperadas_citadas": 0,
+      "total_evidencias_esperadas": 0,
+      "revision_manual_obligatoria": false
+    },
+    {
+      "id": "D02",
+      "sesion": "eval_cdaio",
+      "pregunta": "¿Qué cargo y funciones tiene el directivo en el contrato de alta dirección?",
+      "pregunta_interpretada": "¿Qué cargo y funciones tiene el directivo en el contrato de alta dirección?",
+      "ruta_esperada": "documental",
+      "ruta_real": "documental",
+      "usa_memoria_esperado": false,
+      "usa_memoria_real": false,
+      "fuentes_dirigidas": [
+        "DOC-001"
+      ],
+      "nodos": [
+        "preparar_contexto",
+        "clasificar",
+        "recuperar",
+        "validar",
+        "generar",
+        "registrar_turno"
+      ],
+      "respuesta": "Con base en el contrato ficticio analizado, el cargo y las funciones del directivo (Carlos Eduardo Navarro Ibáñez) son los siguientes:\n\n* **Cargo:** El directivo asume el cargo de *Chief Data & AI Officer* (CDAIO) [F2].\n* **Funciones y responsabilidades:**\n  * Definición de la estrategia corporativa de datos e inteligencia artificial [F2].\n  * Supervisión de plataformas *cloud*, *data lakes* y modelos avanzados de inteligencia artificial (IA) [F2].\n  * Dirección de equipos multidisciplinares y presupuestos estratégicos [F2].\n  * Representación de la empresa ante clientes, *partners* y organismos [F2].\n  * Liderar la estrategia tecnológica y de negocio de la empresa, contando con plena autonomía y responsabilidad en la toma de decisiones [F4].\n\n*Nota: Esta respuesta tiene una finalidad estrictamente académica e informativa basada en un documento de carácter ficticio, por lo que no constituye asesoramiento jurídico profesional.*",
+      "referencias": [
+        {
+          "ref": "F2",
+          "id_chunk": "DOC-001-00003",
+          "documento_id": "DOC-001",
+          "seccion": "PRIMERA. Cargo y funciones",
+          "pagina_inicio": 2,
+          "pagina_fin": 2
+        },
+        {
+          "ref": "F4",
+          "id_chunk": "DOC-001-00002",
+          "documento_id": "DOC-001",
+          "seccion": "Texto introductorio",
+          "pagina_inicio": 1,
+          "pagina_fin": 2
+        }
+      ],
+      "estado_estructural": "OK",
+      "fallos": [],
+      "evidencias_esperadas_citadas": 1,
+      "total_evidencias_esperadas": 1,
+      "revision_manual_obligatoria": true
+    },
+    {
+      "id": "D03",
+      "sesion": "eval_estatuto",
+      "pregunta": "¿Qué establece el artículo 15 del Estatuto de los Trabajadores sobre la duración del contrato?",
+      "pregunta_interpretada": "¿Qué establece el artículo 15 del Estatuto de los Trabajadores sobre la duración del contrato?",
+      "ruta_esperada": "documental",
+      "ruta_real": "documental",
+      "usa_memoria_esperado": false,
+      "usa_memoria_real": false,
+      "fuentes_dirigidas": [
+        "NOR-001"
+      ],
+      "nodos": [
+        "preparar_contexto",
+        "clasificar",
+        "recuperar",
+        "validar",
+        "generar",
+        "registrar_turno"
+      ],
+      "respuesta": "De acuerdo con la norma consolidada aportada (NOR-001), el artículo 15 sobre la duración del contrato de trabajo establece lo siguiente:\n\n* **Presunción de contratación indefinida:** El contrato de trabajo se presume concertado por tiempo indefinido [F1].\n* **Causas de temporalidad:** Los contratos de duración determinada solo pueden celebrarse por circunstancias de la producción o por sustitución de una persona trabajadora [F1]. Para que exista causa justificada, el contrato debe especificar con precisión la causa habilitante, las circunstancias concretas y su conexión con la duración prevista [F1].\n* **Circunstancias de la producción:** Se definen como el incremento ocasional e imprevisible de la actividad y las oscilaciones (incluyendo las vacaciones anuales) que generan un desajuste temporal entre el empleo estable y el requerido, siempre que no correspondan al artículo 16.1 [F1]. Cuando el contrato obedezca a esta causa, su duración no podrá superar los seis meses [F1].\n* **Contrato de sustitución:** Se utiliza para sustituir a una persona trabajadora (debiendo especificarse su nombre y causa en el contrato), permitiendo iniciar la prestación de servicios hasta quince días antes de la ausencia para garantizar el relevo [F5]. También puede servir para completar una jornada reducida o para la cobertura temporal de un puesto durante un proceso de selección o promoción definitiva (con un límite máximo de tres meses o el menor que fije el convenio colectivo) [F5].\n* **Adquisición de la condición de fijeza:** \n  * Las personas contratadas incumpliendo lo establecido en este artículo adquirirán la condición de fijas [F2].\n  * Los trabajadores temporales no dados de alta en la Seguridad Social transcurrido el plazo del periodo de prueba también pasarán a ser fijos [F2].\n  * Se adquiere la condición de fijo si en un periodo de 24 meses un trabajador ha estado contratado durante más de 18 meses (con o sin solución de continuidad) para el mismo o diferente puesto mediante dos o más contratos por circunstancias de la producción (directamente o por ETT), o por sucesión/subrogación empresarial [F2]. Asimismo, adquiere la fijeza quien ocupe un puesto que haya estado ocupado durante más de 18 meses en un periodo de 24 meses mediante contratos por circunstancias de la producción, incluidas las ETT [F3].\n* **Derechos e información:** Los trabajadores temporales tienen los mismos derechos que los indefinidos (reconocidos de forma proporcional cuando corresponda) y se les debe informar sobre puestos vacantes [F3, F4]. La empresa también debe notificar a la representación legal los contratos temporales realizados cuando no haya obligación de entregar copia básica [F4].\n* **Planes de reducción de la temporalidad:** Los convenios colectivos pueden establecer planes para reducir la temporalidad, criterios sobre la relación entre contratación temporal y plantilla total, y objetivos de conversión a indefinidos [F4].\n\n*(Nota: Esta respuesta tiene carácter académico e informativo y se basa estrictamente en las fuentes documentales provistas, sin constituir asesoramiento jurídico profesional).*",
+      "referencias": [
+        {
+          "ref": "F1",
+          "id_chunk": "NOR-001-00055",
+          "documento_id": "NOR-001",
+          "seccion": "Artículo 15. Duración del contrato de trabajo.",
+          "pagina_inicio": 20,
+          "pagina_fin": 21
+        },
+        {
+          "ref": "F2",
+          "id_chunk": "NOR-001-00059",
+          "documento_id": "NOR-001",
+          "seccion": "Artículo 15. Duración del contrato de trabajo.",
+          "pagina_inicio": 21,
+          "pagina_fin": 22
+        },
+        {
+          "ref": "F3",
+          "id_chunk": "NOR-001-00060",
+          "documento_id": "NOR-001",
+          "seccion": "Artículo 15. Duración del contrato de trabajo.",
+          "pagina_inicio": 22,
+          "pagina_fin": 22
+        },
+        {
+          "ref": "F4",
+          "id_chunk": "NOR-001-00061",
+          "documento_id": "NOR-001",
+          "seccion": "Artículo 15. Duración del contrato de trabajo.",
+          "pagina_inicio": 22,
+          "pagina_fin": 22
+        },
+        {
+          "ref": "F5",
+          "id_chunk": "NOR-001-00058",
+          "documento_id": "NOR-001",
+          "seccion": "Artículo 15. Duración del contrato de trabajo.",
+          "pagina_inicio": 21,
+          "pagina_fin": 21
+        }
+      ],
+      "estado_estructural": "OK",
+      "fallos": [],
+      "evidencias_esperadas_citadas": 1,
+      "total_evidencias_esperadas": 1,
+      "revision_manual_obligatoria": true
+    },
+    {
+      "id": "D04",
+      "sesion": "eval_realdecreto",
+      "pregunta": "¿Cuál es el ámbito de aplicación del artículo 1 del Real Decreto 1382/1985 sobre alta dirección?",
+      "pregunta_interpretada": "¿Cuál es el ámbito de aplicación del artículo 1 del Real Decreto 1382/1985 sobre alta dirección?",
+      "ruta_esperada": "documental",
+      "ruta_real": "documental",
+      "usa_memoria_esperado": false,
+      "usa_memoria_real": false,
+      "fuentes_dirigidas": [
+        "NOR-002"
+      ],
+      "nodos": [
+        "preparar_contexto",
+        "clasificar",
+        "recuperar",
+        "validar",
+        "generar",
+        "registrar_turno"
+      ],
+      "respuesta": "A partir de la norma consolidada (Real Decreto 1382/1985), el ámbito de aplicación del artículo 1 se define de la siguiente manera:\n\n* **Objeto y cobertura general:** Regula la relación laboral de carácter especial del personal de alta dirección [F1].\n* **Concepto de personal de alta dirección:** Se aplica a aquellos trabajadores que ejercitan poderes inherentes a la titularidad jurídica de la empresa y relativos a sus objetivos generales, con autonomía y plena responsabilidad limitadas únicamente por los criterios e instrucciones directas de la persona u órganos superiores de gobierno y administración de la entidad [F1].\n* **Exclusiones:** Queda excluida la actividad delimitada en el artículo 1.3.c) del Estatuto de los Trabajadores [F1].\n* **Sector público:** Se aplica a los máximos responsables y personal directivo referidos en el Real Decreto 451/2012 (sobre régimen retributivo en el sector público empresarial y otras entidades) que no estén vinculados por una relación mercantil, siempre que no se oponga a dicho real decreto ni al Real Decreto-ley 3/2012 de medidas urgentes para la reforma del mercado laboral [F1].\n\n*Nota: Esta respuesta tiene carácter académico e informativo y se basa exclusivamente en el texto normativo consolidado proporcionado [F1]. No constituye asesoramiento jurídico profesional.*",
+      "referencias": [
+        {
+          "ref": "F1",
+          "id_chunk": "NOR-002-00003",
+          "documento_id": "NOR-002",
+          "seccion": "Artículo 1. Ambito de aplicación.",
+          "pagina_inicio": 3,
+          "pagina_fin": 3
+        }
+      ],
+      "estado_estructural": "OK",
+      "fallos": [],
+      "evidencias_esperadas_citadas": 1,
+      "total_evidencias_esperadas": 1,
+      "revision_manual_obligatoria": true
+    },
+    {
+      "id": "D05",
+      "sesion": "eval_vacaciones",
+      "pregunta": "¿Cuántos días de vacaciones establece el contrato indefinido?",
+      "pregunta_interpretada": "¿Cuántos días de vacaciones establece el contrato indefinido?",
+      "ruta_esperada": "documental",
+      "ruta_real": "documental",
+      "usa_memoria_esperado": false,
+      "usa_memoria_real": false,
+      "fuentes_dirigidas": [
+        "DOC-002"
+      ],
+      "nodos": [
+        "preparar_contexto",
+        "clasificar",
+        "recuperar",
+        "validar",
+        "generar",
+        "registrar_turno"
+      ],
+      "respuesta": "Según el contrato indefinido analizado (celebrado entre la mercantil ATLANTIS DIGITAL SERVICES, S.L. y el trabajador Julián Miguel Torres Calvo) [F1, F4], se establece que el trabajador tendrá derecho a **22 días laborables de vacaciones por año natural** [F2].\n\n*Nota: Esta respuesta se basa exclusivamente en el documento ficticio aportado [F2] y tiene un carácter estrictamente académico e informativo, no constituyendo asesoramiento jurídico profesional.*",
+      "referencias": [
+        {
+          "ref": "F2",
+          "id_chunk": "DOC-002-00008",
+          "documento_id": "DOC-002",
+          "seccion": "SEXTA. Vacaciones",
+          "pagina_inicio": 2,
+          "pagina_fin": 2
+        }
+      ],
+      "estado_estructural": "OK",
+      "fallos": [],
+      "evidencias_esperadas_citadas": 1,
+      "total_evidencias_esperadas": 1,
+      "revision_manual_obligatoria": true
+    },
+    {
+      "id": "D06",
+      "sesion": "eval_memoria",
+      "pregunta": "¿Cuál es la fecha de inicio del contrato de alta dirección?",
+      "pregunta_interpretada": "¿Cuál es la fecha de inicio del contrato de alta dirección?",
+      "ruta_esperada": "documental",
+      "ruta_real": "documental",
+      "usa_memoria_esperado": false,
+      "usa_memoria_real": false,
+      "fuentes_dirigidas": [
+        "DOC-001"
+      ],
+      "nodos": [
+        "preparar_contexto",
+        "clasificar",
+        "recuperar",
+        "validar",
+        "generar",
+        "registrar_turno"
+      ],
+      "respuesta": "Según el contrato ficticio de alta dirección, la fecha de inicio de la vigencia del contrato es el **1 de abril de 2026** [F3]. \n\n*(Nota: Esta respuesta tiene carácter académico e informativo y se basa estrictamente en el documento ficticio aportado).*",
+      "referencias": [
+        {
+          "ref": "F3",
+          "id_chunk": "DOC-001-00005",
+          "documento_id": "DOC-001",
+          "seccion": "TERCERA. Duración",
+          "pagina_inicio": 2,
+          "pagina_fin": 2
+        }
+      ],
+      "estado_estructural": "OK",
+      "fallos": [],
+      "evidencias_esperadas_citadas": 1,
+      "total_evidencias_esperadas": 1,
+      "revision_manual_obligatoria": true
+    },
+    {
+      "id": "D07",
+      "sesion": "eval_memoria",
+      "pregunta": "¿Y qué indica el otro contrato?",
+      "pregunta_interpretada": "¿En qué fecha se inicia la vigencia del contrato indefinido?",
+      "ruta_esperada": "documental",
+      "ruta_real": "documental",
+      "usa_memoria_esperado": true,
+      "usa_memoria_real": true,
+      "fuentes_dirigidas": [
+        "DOC-002"
+      ],
+      "nodos": [
+        "preparar_contexto",
+        "clasificar",
+        "recuperar",
+        "validar",
+        "generar",
+        "registrar_turno"
+      ],
+      "respuesta": "Con base en el contrato ficticio analizado, la vigencia del contrato indefinido se inicia el **15 de abril de 2026** [F1]. \n\n*Nota: Esta respuesta tiene una finalidad estrictamente académica e informativa y se basa exclusivamente en el documento ficticio aportado [F4].*",
+      "referencias": [
+        {
+          "ref": "F1",
+          "id_chunk": "DOC-002-00005",
+          "documento_id": "DOC-002",
+          "seccion": "TERCERA. Duración",
+          "pagina_inicio": 2,
+          "pagina_fin": 2
+        },
+        {
+          "ref": "F4",
+          "id_chunk": "DOC-002-00013",
+          "documento_id": "DOC-002",
+          "seccion": "UNDÉCIMA. Legislación y jurisdicción",
+          "pagina_inicio": 3,
+          "pagina_fin": 3
+        }
+      ],
+      "estado_estructural": "OK",
+      "fallos": [],
+      "evidencias_esperadas_citadas": 1,
+      "total_evidencias_esperadas": 1,
+      "revision_manual_obligatoria": true
+    },
+    {
+      "id": "D08",
+      "sesion": "eval_memoria",
+      "pregunta": "Compara ambas fechas de inicio",
+      "pregunta_interpretada": "Compara las fechas de inicio de los dos contratos",
+      "ruta_esperada": "comparacion",
+      "ruta_real": "comparacion",
+      "usa_memoria_esperado": true,
+      "usa_memoria_real": true,
+      "fuentes_dirigidas": [
+        "DOC-001",
+        "DOC-002"
+      ],
+      "nodos": [
+        "preparar_contexto",
+        "clasificar",
+        "recuperar",
+        "validar",
+        "generar",
+        "registrar_turno"
+      ],
+      "respuesta": "A partir de los fragmentos documentales aportados, se comparan las fechas de inicio de vigencia de los dos contratos ficticios de la siguiente manera:\n\n* **Primer contrato (DOC-001):** La fecha de inicio de vigencia es el **1 de abril de 2026** [F2]. Esta vigencia se establece en la **Cláusula TERCERA (Duración)** [F2]. Respecto a la fecha de firma del documento DOC-001, los fragmentos recuperados no contienen dicha información, por lo que no es posible determinarla.\n* **Segundo contrato (DOC-002):** La fecha de inicio de vigencia es el **15 de abril de 2026** [F6]. Dicha vigencia se establece en la **Cláusula TERCERA (Duración)** [F6]. Por otro lado, la fecha de firma de este contrato consta en la sección IV (Firma), habiéndose firmado en Valencia el **5 de abril de 2026** [F10].\n\nEn resumen, en cuanto a las fechas de inicio de vigencia, el primer contrato (DOC-001) inicia el 1 de abril de 2026 [F2] y el segundo (DOC-002) el 15 de abril de 2026 [F6]. No se dispone de la fecha de firma correspondiente al primer documento para realizar una comparativa completa de fechas de firma.",
+      "referencias": [
+        {
+          "ref": "F2",
+          "id_chunk": "DOC-001-00005",
+          "documento_id": "DOC-001",
+          "seccion": "TERCERA. Duración",
+          "pagina_inicio": 2,
+          "pagina_fin": 2
+        },
+        {
+          "ref": "F6",
+          "id_chunk": "DOC-002-00005",
+          "documento_id": "DOC-002",
+          "seccion": "TERCERA. Duración",
+          "pagina_inicio": 2,
+          "pagina_fin": 2
+        },
+        {
+          "ref": "F10",
+          "id_chunk": "DOC-002-00013",
+          "documento_id": "DOC-002",
+          "seccion": "UNDÉCIMA. Legislación y jurisdicción",
+          "pagina_inicio": 3,
+          "pagina_fin": 3
+        }
+      ],
+      "estado_estructural": "OK",
+      "fallos": [],
+      "evidencias_esperadas_citadas": 2,
+      "total_evidencias_esperadas": 2,
+      "revision_manual_obligatoria": true
+    },
+    {
+      "id": "D09",
+      "sesion": "eval_comparacion_vacaciones",
+      "pregunta": "Compara las vacaciones pactadas en el contrato indefinido con las vacaciones anuales del artículo 38 del Estatuto de los Trabajadores.",
+      "pregunta_interpretada": "Compara las vacaciones pactadas en el contrato indefinido con las vacaciones anuales del artículo 38 del Estatuto de los Trabajadores.",
+      "ruta_esperada": "comparacion",
+      "ruta_real": "comparacion",
+      "usa_memoria_esperado": false,
+      "usa_memoria_real": false,
+      "fuentes_dirigidas": [
+        "DOC-002",
+        "NOR-001"
+      ],
+      "nodos": [
+        "preparar_contexto",
+        "clasificar",
+        "recuperar",
+        "validar",
+        "generar",
+        "registrar_turno"
+      ],
+      "respuesta": "A continuación se presenta la comparación entre las vacaciones estipuladas en el contrato indefinido ficticio y lo regulado en el artículo 38 del Estatuto de los Trabajadores, basándose exclusivamente en las fuentes aportadas:\n\n* **Vacaciones en el contrato ficticio (CONTRATO DE TRABAJO POR TIEMPO INDETERMINADO - DOC-002):**\n  * El contrato establece expresamente que el trabajador tendrá derecho a **22 días laborables** de vacaciones por año natural [F3].\n\n* **Vacaciones anuales según la norma consolidada (Artículo 38 del Estatuto de los Trabajadores - NOR-001):**\n  * La norma dispone que el periodo de vacaciones anuales retribuidas será el que se pacte en convenio colectivo o en el contrato individual, señalando como garantía mínima que **en ningún caso la duración será inferior a treinta días naturales** [F6]. Asimismo, indica que este periodo no es sustituible por compensación económica [F6].\n  * La norma también regula aspectos complementarios sobre su fijación de común acuerdo entre empresario y trabajador, la elaboración del calendario de vacaciones en la empresa (con un conocimiento previo de al menos dos meses antes de su disfrute por parte del trabajador) y las reglas aplicables en supuestos de coincidencia con incapacidad temporal o determinados periodos de suspensión del contrato [F6, F7].\n\n**Diferenciación:**\n* Lo establecido en el **contrato ficticio** es un derecho específico pactado de 22 días laborables por año natural [F3].\n* Lo establecido en la **norma consolidada** (Estatuto de los Trabajadores) fija un marco general que remite al convenio colectivo o contrato individual, garantizando como mínimo que la duración no sea inferior a treinta días naturales [F6], además de regular el procedimiento de fijación de fechas y los supuestos de coincidencia con bajas médicas o suspensiones [F6, F7].\n\n*Nota: Esta respuesta tiene un carácter estrictamente académico e informativo basado en la documentación aportada y no constituye asesoramiento jurídico profesional.*",
+      "referencias": [
+        {
+          "ref": "F3",
+          "id_chunk": "DOC-002-00008",
+          "documento_id": "DOC-002",
+          "seccion": "SEXTA. Vacaciones",
+          "pagina_inicio": 2,
+          "pagina_fin": 2
+        },
+        {
+          "ref": "F6",
+          "id_chunk": "NOR-001-00136",
+          "documento_id": "NOR-001",
+          "seccion": "Artículo 38. Vacaciones anuales.",
+          "pagina_inicio": 39,
+          "pagina_fin": 39
+        }
+      ],
+      "estado_estructural": "OK",
+      "fallos": [],
+      "evidencias_esperadas_citadas": 2,
+      "total_evidencias_esperadas": 2,
+      "revision_manual_obligatoria": true
+    },
+    {
+      "id": "D11",
+      "sesion": "eval_aislamiento",
+      "pregunta": "¿Y qué indica el otro contrato?",
+      "pregunta_interpretada": "¿Y qué indica el otro contrato?",
+      "ruta_esperada": "aclaracion",
+      "ruta_real": "aclaracion",
+      "usa_memoria_esperado": false,
+      "usa_memoria_real": false,
+      "fuentes_dirigidas": [],
+      "nodos": [
+        "preparar_contexto",
+        "pedir_aclaracion"
+      ],
+      "respuesta": "¿A qué contrato y sobre qué asunto te refieres?",
+      "referencias": [],
+      "estado_estructural": "OK",
+      "fallos": [],
+      "evidencias_esperadas_citadas": 0,
+      "total_evidencias_esperadas": 0,
+      "revision_manual_obligatoria": false
+    },
+    {
+      "id": "D10",
+      "sesion": "eval_fuera_del_corpus",
+      "pregunta": "¿Cuántos satélites artificiales ha lanzado la empresa del contrato de alta dirección?",
+      "pregunta_interpretada": "¿Cuántos satélites artificiales ha lanzado la empresa del contrato de alta dirección?",
+      "ruta_esperada": "documental",
+      "ruta_real": "documental",
+      "usa_memoria_esperado": false,
+      "usa_memoria_real": false,
+      "fuentes_dirigidas": [
+        "DOC-001"
+      ],
+      "nodos": [
+        "preparar_contexto",
+        "clasificar",
+        "recuperar",
+        "validar",
+        "generar",
+        "registrar_turno"
+      ],
+      "respuesta": "La información proporcionada en el contrato de alta dirección de la empresa ORBITAL SYSTEMS CONSULTING, S.L. [F1] no menciona cuántos satélites artificiales ha lanzado la compañía. La actividad declarada de la empresa es la consultoría estratégica, transformación digital, inteligencia artificial, arquitectura empresarial y gestión avanzada de datos [F1], sin hacer referencia a la fabricación o lanzamiento de satélites.",
+      "referencias": [
+        {
+          "ref": "F1",
+          "id_chunk": "DOC-001-00001",
+          "documento_id": "DOC-001",
+          "seccion": "Texto introductorio",
+          "pagina_inicio": 1,
+          "pagina_fin": 1
+        }
+      ],
+      "estado_estructural": "OK",
+      "fallos": [],
+      "evidencias_esperadas_citadas": 0,
+      "total_evidencias_esperadas": 0,
+      "revision_manual_obligatoria": true
+    }
+  ],
+  "resumen": {
+    "casos_ejecutados": 11,
+    "casos_objetivo": 11,
+    "sin_errores_estructurales": 11,
+    "con_incidencias_o_errores": 0,
+    "pendientes_verificacion_humana": 9
+  }
+}

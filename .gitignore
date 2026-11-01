@@ -1,0 +1,50 @@
+.venv/
+__pycache__/
+.pytest_cache/
+corpus/texto_paginas/*.txt
+informes/manifest_validacion_local.json
+.env
+*.key
+# ==========================================
+# ARCHIVOS PRIVADOS Y CREDENCIALES
+# ==========================================
+.env
+.env.*
+!.env.example
+*.key
+
+# ==========================================
+# PRESENTACION Y VIDEO - ENTREGA SEPARADA
+# ==========================================
+*.pptx
+*.mp4
+*.mov
+*.mkv
+docs/presentacion/
+
+# ==========================================
+# ARCHIVOS LOCALES DE DESARROLLO
+# ==========================================
+.venv/
+.vscode/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.pytest_cache/
+
+# ==========================================
+# COPIAS DE SEGURIDAD DE SCRIPTS
+# ==========================================
+scripts/*backup*.py
+*.bak
+rdm/
+
+# ==========================================
+# HISTORIAL Y RESULTADOS INTERMEDIOS
+# ==========================================
+corpus/chunks/chunks_v1_backup.jsonl
+informes/reporte_chunking_v1_backup.json
+informes/etapa5/respuesta_antes_correccion.json
+informes/etapa5/ultima_respuesta.json
+informes/etapa8/revision_humana.md
+informes/etapa8/revision_preliminar_etapa8_1.md

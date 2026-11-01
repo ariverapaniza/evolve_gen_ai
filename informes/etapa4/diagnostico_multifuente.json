@@ -1,0 +1,345 @@
+{
+  "modelo": "gemini-embedding-2",
+  "sha256_corpus": "c296c5fe1612e8e07e1221cbbdd61f7f30dbf787b20d930f13520155d3733b42",
+  "version_consultas": "7052ba6ed9620260e2a6ad43e71d6f14c7abab4a4f769f89510abaedf9056789",
+  "top_k_por_fuente": 5,
+  "creado_utc": "2026-10-27T16:51:33.246257+00:00",
+  "resultados": {
+    "M01": {
+      "pregunta": "Compara las fechas de inicio de los contratos de alta dirección y del analista de datos indefinido.",
+      "consultas_por_fuente": [
+        {
+          "documento_id": "DOC-001",
+          "consulta": "¿En qué fecha se inicia la vigencia del contrato de alta dirección del directivo?"
+        },
+        {
+          "documento_id": "DOC-002",
+          "consulta": "¿En qué fecha se inicia la vigencia del contrato indefinido del analista de datos?"
+        }
+      ],
+      "resultados_por_fuente": {
+        "DOC-001": [
+          {
+            "id": "DOC-001-00001",
+            "metadata": {
+              "sha256_texto_original": "de398dfa31a8384e17adf5e3f70bdcff624ca20cdc736c3a399f93a28d6d2fb4",
+              "fuente": "Documento aportado por el alumno (Evolve)",
+              "pagina_fin": 1,
+              "url_oficial": "",
+              "pagina_inicio": 1,
+              "documento_id": "DOC-001",
+              "tipo_documento": "contrato_ficticio_alta_direccion",
+              "seccion": "Texto introductorio"
+            },
+            "distancia": 0.506624
+          },
+          {
+            "id": "DOC-001-00005",
+            "metadata": {
+              "tipo_documento": "contrato_ficticio_alta_direccion",
+              "pagina_fin": 2,
+              "seccion": "TERCERA. Duración",
+              "sha256_texto_original": "3721a7914e9134c108256aa0738f46096ce000b8aafd298a29b44116769143c5",
+              "pagina_inicio": 2,
+              "url_oficial": "",
+              "fuente": "Documento aportado por el alumno (Evolve)",
+              "documento_id": "DOC-001"
+            },
+            "distancia": 0.560287
+          },
+          {
+            "id": "DOC-001-00006",
+            "metadata": {
+              "fuente": "Documento aportado por el alumno (Evolve)",
+              "pagina_fin": 2,
+              "seccion": "CUARTA. Dedicación y disponibilidad",
+              "url_oficial": "",
+              "sha256_texto_original": "330b58b316aa8de7f3c9c59ad3bc73cda28b7f8d8ab16be05035ea46c2d56d93",
+              "pagina_inicio": 2,
+              "tipo_documento": "contrato_ficticio_alta_direccion",
+              "documento_id": "DOC-001"
+            },
+            "distancia": 0.56931
+          },
+          {
+            "id": "DOC-001-00002",
+            "metadata": {
+              "pagina_inicio": 1,
+              "pagina_fin": 2,
+              "fuente": "Documento aportado por el alumno (Evolve)",
+              "url_oficial": "",
+              "sha256_texto_original": "efd3bf5d9281c731c3a9d6966d27de95d143a44115c25ef2dfef2a32eaebe05a",
+              "tipo_documento": "contrato_ficticio_alta_direccion",
+              "documento_id": "DOC-001",
+              "seccion": "Texto introductorio"
+            },
+            "distancia": 0.58696
+          },
+          {
+            "id": "DOC-001-00003",
+            "metadata": {
+              "fuente": "Documento aportado por el alumno (Evolve)",
+              "url_oficial": "",
+              "documento_id": "DOC-001",
+              "sha256_texto_original": "74a4f2cf80f7fdf93d64ddb121c5b035bfd27e156b0cb48af80365dc5d0eed8f",
+              "tipo_documento": "contrato_ficticio_alta_direccion",
+              "pagina_fin": 2,
+              "seccion": "PRIMERA. Cargo y funciones",
+              "pagina_inicio": 2
+            },
+            "distancia": 0.588146
+          }
+        ],
+        "DOC-002": [
+          {
+            "id": "DOC-002-00005",
+            "metadata": {
+              "seccion": "TERCERA. Duración",
+              "pagina_inicio": 2,
+              "documento_id": "DOC-002",
+              "pagina_fin": 2,
+              "tipo_documento": "contrato_ficticio_indefinido",
+              "fuente": "Documento aportado por el alumno (Evolve)",
+              "sha256_texto_original": "3485af13647f5303172083f42d893f743bc92bd659b4312084b9d662497416a6",
+              "url_oficial": ""
+            },
+            "distancia": 0.430101
+          },
+          {
+            "id": "DOC-002-00001",
+            "metadata": {
+              "pagina_inicio": 1,
+              "seccion": "Texto introductorio",
+              "fuente": "Documento aportado por el alumno (Evolve)",
+              "tipo_documento": "contrato_ficticio_indefinido",
+              "url_oficial": "",
+              "documento_id": "DOC-002",
+              "pagina_fin": 1,
+              "sha256_texto_original": "01a9222abf968ee06dffaa638fbfe33bba6acf8690a2dae8847348e68f358b8b"
+            },
+            "distancia": 0.4597
+          },
+          {
+            "id": "DOC-002-00003",
+            "metadata": {
+              "url_oficial": "",
+              "seccion": "PRIMERA. Puesto de trabajo",
+              "sha256_texto_original": "3be17797c20a1364172678cb831a8cd98b3728f7d268d3acf1fc6e5ffbc5ef41",
+              "pagina_inicio": 2,
+              "pagina_fin": 2,
+              "tipo_documento": "contrato_ficticio_indefinido",
+              "fuente": "Documento aportado por el alumno (Evolve)",
+              "documento_id": "DOC-002"
+            },
+            "distancia": 0.466848
+          },
+          {
+            "id": "DOC-002-00006",
+            "metadata": {
+              "url_oficial": "",
+              "tipo_documento": "contrato_ficticio_indefinido",
+              "sha256_texto_original": "3436afe743123167d9317516fe7d5641d28feccbdc98afd978e4746faa54bb0f",
+              "documento_id": "DOC-002",
+              "fuente": "Documento aportado por el alumno (Evolve)",
+              "pagina_inicio": 2,
+              "seccion": "CUARTA. Jornada",
+              "pagina_fin": 2
+            },
+            "distancia": 0.608666
+          },
+          {
+            "id": "DOC-002-00013",
+            "metadata": {
+              "tipo_documento": "contrato_ficticio_indefinido",
+              "seccion": "UNDÉCIMA. Legislación y jurisdicción",
+              "pagina_inicio": 3,
+              "pagina_fin": 3,
+              "url_oficial": "",
+              "fuente": "Documento aportado por el alumno (Evolve)",
+              "documento_id": "DOC-002",
+              "sha256_texto_original": "5926fe6cdaf89309c72faaa42e9901cb41c59f745271c84c0bf3afccf1299a87"
+            },
+            "distancia": 0.63835
+          }
+        ]
+      },
+      "metricas": {
+        "posiciones_por_fuente": {
+          "DOC-001": 2,
+          "DOC-002": 1
+        },
+        "fuentes_cubiertas": 2,
+        "fuentes_esperadas": 2,
+        "completo": true
+      }
+    },
+    "M02": {
+      "pregunta": "Compara las vacaciones pactadas en el contrato indefinido con las vacaciones anuales del artículo 38 del Estatuto de los Trabajadores.",
+      "consultas_por_fuente": [
+        {
+          "documento_id": "DOC-002",
+          "consulta": "¿Cuántos días de vacaciones anuales establece el contrato indefinido del analista de datos?"
+        },
+        {
+          "documento_id": "NOR-001",
+          "consulta": "¿Qué dispone el artículo 38 del Estatuto de los Trabajadores sobre vacaciones anuales?"
+        }
+      ],
+      "resultados_por_fuente": {
+        "DOC-002": [
+          {
+            "id": "DOC-002-00003",
+            "metadata": {
+              "url_oficial": "",
+              "seccion": "PRIMERA. Puesto de trabajo",
+              "pagina_inicio": 2,
+              "documento_id": "DOC-002",
+              "pagina_fin": 2,
+              "sha256_texto_original": "3be17797c20a1364172678cb831a8cd98b3728f7d268d3acf1fc6e5ffbc5ef41",
+              "fuente": "Documento aportado por el alumno (Evolve)",
+              "tipo_documento": "contrato_ficticio_indefinido"
+            },
+            "distancia": 0.496667
+          },
+          {
+            "id": "DOC-002-00001",
+            "metadata": {
+              "documento_id": "DOC-002",
+              "pagina_inicio": 1,
+              "sha256_texto_original": "01a9222abf968ee06dffaa638fbfe33bba6acf8690a2dae8847348e68f358b8b",
+              "url_oficial": "",
+              "tipo_documento": "contrato_ficticio_indefinido",
+              "seccion": "Texto introductorio",
+              "pagina_fin": 1,
+              "fuente": "Documento aportado por el alumno (Evolve)"
+            },
+            "distancia": 0.518045
+          },
+          {
+            "id": "DOC-002-00008",
+            "metadata": {
+              "seccion": "SEXTA. Vacaciones",
+              "pagina_fin": 2,
+              "documento_id": "DOC-002",
+              "pagina_inicio": 2,
+              "sha256_texto_original": "d983a3f3a1503e5b8bdffbf8e95dea874820174741468b4f7848ed9764d9c3fa",
+              "tipo_documento": "contrato_ficticio_indefinido",
+              "fuente": "Documento aportado por el alumno (Evolve)",
+              "url_oficial": ""
+            },
+            "distancia": 0.598264
+          },
+          {
+            "id": "DOC-002-00005",
+            "metadata": {
+              "pagina_fin": 2,
+              "url_oficial": "",
+              "seccion": "TERCERA. Duración",
+              "tipo_documento": "contrato_ficticio_indefinido",
+              "pagina_inicio": 2,
+              "documento_id": "DOC-002",
+              "fuente": "Documento aportado por el alumno (Evolve)",
+              "sha256_texto_original": "3485af13647f5303172083f42d893f743bc92bd659b4312084b9d662497416a6"
+            },
+            "distancia": 0.639762
+          },
+          {
+            "id": "DOC-002-00006",
+            "metadata": {
+              "url_oficial": "",
+              "seccion": "CUARTA. Jornada",
+              "fuente": "Documento aportado por el alumno (Evolve)",
+              "pagina_inicio": 2,
+              "tipo_documento": "contrato_ficticio_indefinido",
+              "sha256_texto_original": "3436afe743123167d9317516fe7d5641d28feccbdc98afd978e4746faa54bb0f",
+              "pagina_fin": 2,
+              "documento_id": "DOC-002"
+            },
+            "distancia": 0.642463
+          }
+        ],
+        "NOR-001": [
+          {
+            "id": "NOR-001-00136",
+            "metadata": {
+              "sha256_texto_original": "070b390f3614321afe6f2520b0ad17850d7cbe099a3d3b7a2061e4016da8c6e7",
+              "url_oficial": "https://www.boe.es/buscar/pdf/2015/BOE-A-2015-11430-consolidado.pdf",
+              "fuente": "Agencia Estatal Boletín Oficial del Estado, RDL 2/2015",
+              "pagina_inicio": 39,
+              "tipo_documento": "normativa_consolidada_informativa",
+              "pagina_fin": 39,
+              "seccion": "Artículo 38. Vacaciones anuales.",
+              "documento_id": "NOR-001"
+            },
+            "distancia": 0.330391
+          },
+          {
+            "id": "NOR-001-00137",
+            "metadata": {
+              "pagina_fin": 40,
+              "fuente": "Agencia Estatal Boletín Oficial del Estado, RDL 2/2015",
+              "seccion": "Artículo 38. Vacaciones anuales.",
+              "documento_id": "NOR-001",
+              "pagina_inicio": 39,
+              "url_oficial": "https://www.boe.es/buscar/pdf/2015/BOE-A-2015-11430-consolidado.pdf",
+              "sha256_texto_original": "ab2f9b4ae9f127f51e6fa74772fc87c4fa6baa9b13fe5e44a0dd93b1d24a0236",
+              "tipo_documento": "normativa_consolidada_informativa"
+            },
+            "distancia": 0.417686
+          },
+          {
+            "id": "NOR-001-00122",
+            "metadata": {
+              "documento_id": "NOR-001",
+              "seccion": "Artículo 37. Descanso semanal, fiestas y permisos.",
+              "url_oficial": "https://www.boe.es/buscar/pdf/2015/BOE-A-2015-11430-consolidado.pdf",
+              "sha256_texto_original": "196641870c57f53d5a9168dd468eb9cb939013efb9de780c9b8b57cde40c2113",
+              "fuente": "Agencia Estatal Boletín Oficial del Estado, RDL 2/2015",
+              "pagina_fin": 36,
+              "tipo_documento": "normativa_consolidada_informativa",
+              "pagina_inicio": 36
+            },
+            "distancia": 0.497927
+          },
+          {
+            "id": "NOR-001-00109",
+            "metadata": {
+              "pagina_inicio": 33,
+              "url_oficial": "https://www.boe.es/buscar/pdf/2015/BOE-A-2015-11430-consolidado.pdf",
+              "tipo_documento": "normativa_consolidada_informativa",
+              "pagina_fin": 33,
+              "fuente": "Agencia Estatal Boletín Oficial del Estado, RDL 2/2015",
+              "sha256_texto_original": "dedc711c388907bb5557eb580123146e8b45be2e07ab7f32d017543fcdd211fc",
+              "seccion": "Artículo 34. Jornada.",
+              "documento_id": "NOR-001"
+            },
+            "distancia": 0.547323
+          },
+          {
+            "id": "NOR-001-00123",
+            "metadata": {
+              "documento_id": "NOR-001",
+              "pagina_fin": 36,
+              "sha256_texto_original": "5489a51b3c6ad1ec7e7f1c62224bb7e984faeb1e1f7463b671ecda0353f3efc2",
+              "fuente": "Agencia Estatal Boletín Oficial del Estado, RDL 2/2015",
+              "seccion": "Artículo 37. Descanso semanal, fiestas y permisos.",
+              "tipo_documento": "normativa_consolidada_informativa",
+              "url_oficial": "https://www.boe.es/buscar/pdf/2015/BOE-A-2015-11430-consolidado.pdf",
+              "pagina_inicio": 36
+            },
+            "distancia": 0.55344
+          }
+        ]
+      },
+      "metricas": {
+        "posiciones_por_fuente": {
+          "DOC-002": 3,
+          "NOR-001": 1
+        },
+        "fuentes_cubiertas": 2,
+        "fuentes_esperadas": 2,
+        "completo": true
+      }
+    }
+  }
+}

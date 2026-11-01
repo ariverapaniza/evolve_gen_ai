@@ -1,0 +1,41 @@
+{
+  "estado": "VALIDADO_PARA_PRUEBAS_DE_RECUPERACION",
+  "etapa": "2 - Derivado de chunks para embeddings",
+  "documentos": {
+    "DOC-001": 14,
+    "DOC-002": 13,
+    "NOR-001": 387,
+    "NOR-002": 23
+  },
+  "total_entrada": 443,
+  "total_salida": 437,
+  "descartados": [
+    "NOR-001-00006",
+    "NOR-001-00245",
+    "NOR-001-00252",
+    "NOR-001-00296",
+    "NOR-001-00302",
+    "NOR-002-00022"
+  ],
+  "fragments_fusionados": {
+    "NOR-002-00022": "NOR-002-00021"
+  },
+  "lineas_boilerplate_retiradas": 315,
+  "fragmentos_menores_100": [
+    {
+      "id": "DOC-002-00008",
+      "caracteres": 99,
+      "documento": "DOC-002"
+    },
+    {
+      "id": "DOC-002-00009",
+      "caracteres": 73,
+      "documento": "DOC-002"
+    }
+  ],
+  "ids_duplicados": 0,
+  "hash_texto_verificado": true,
+  "nota": "Derivado auditable: se conserva chunks.jsonl sin cambios. No se han probado embeddings ni recuperación semántica.",
+  "sha256_archivo_origen": "e9c2320ab62cf6051e9e020004dde493bed01deb0107324f6002e29f908505f2",
+  "sha256_archivo_salida": "c296c5fe1612e8e07e1221cbbdd61f7f30dbf787b20d930f13520155d3733b42"
+}

@@ -1,0 +1,73 @@
+{
+  "etapa": "2 - Segmentación legal sin embeddings",
+  "estado": "VALIDADO",
+  "max_caracteres": 1400,
+  "solape_caracteres": 180,
+  "total_documentos": 4,
+  "total_paginas_fuente": 110,
+  "total_paginas_con_contenido_indexable": 101,
+  "total_paginas_indice_excluidas": 9,
+  "total_chunks": 443,
+  "min_longitud_chunk": 43,
+  "max_longitud_chunk": 1399,
+  "promedio_longitud_chunk": 1020.2,
+  "duplicados_ids": 0,
+  "por_documento": [
+    {
+      "documento_id": "DOC-001",
+      "paginas": 3,
+      "chunks": 14,
+      "secciones": 13,
+      "chunks_cortos_menos_100_caracteres": 0,
+      "caracteres_extraidos_originales": 4426,
+      "paginas_con_contenido_indexable": 3,
+      "paginas_indice_excluidas": [],
+      "pagina_inicio_contenido": 1
+    },
+    {
+      "documento_id": "DOC-002",
+      "paginas": 3,
+      "chunks": 13,
+      "secciones": 12,
+      "chunks_cortos_menos_100_caracteres": 2,
+      "caracteres_extraidos_originales": 3901,
+      "paginas_con_contenido_indexable": 3,
+      "paginas_indice_excluidas": [],
+      "pagina_inicio_contenido": 1
+    },
+    {
+      "documento_id": "NOR-001",
+      "paginas": 97,
+      "chunks": 392,
+      "secciones": 154,
+      "chunks_cortos_menos_100_caracteres": 5,
+      "caracteres_extraidos_originales": 413889,
+      "paginas_con_contenido_indexable": 90,
+      "paginas_indice_excluidas": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "pagina_inicio_contenido": 8
+    },
+    {
+      "documento_id": "NOR-002",
+      "paginas": 7,
+      "chunks": 24,
+      "secciones": 20,
+      "chunks_cortos_menos_100_caracteres": 1,
+      "caracteres_extraidos_originales": 19139,
+      "paginas_con_contenido_indexable": 5,
+      "paginas_indice_excluidas": [
+        1,
+        2
+      ],
+      "pagina_inicio_contenido": 3
+    }
+  ],
+  "nota": "v2: Se excluye el índice de normativa BOE hasta TEXTO CONSOLIDADO. Los tamaños están en caracteres, no tokens. Las páginas se refieren al PDF original."
+}

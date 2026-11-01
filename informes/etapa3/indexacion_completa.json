@@ -1,0 +1,10 @@
+{
+  "actualizado_utc": "2026-10-26T21:09:20.941496+00:00",
+  "coleccion": "evolve_contratos_completa_v1",
+  "registros": 437,
+  "modelo": "gemini-embedding-2",
+  "dimension": 768,
+  "sha256_corpus": "c296c5fe1612e8e07e1221cbbdd61f7f30dbf787b20d930f13520155d3733b42",
+  "objetivo": 437,
+  "completo": true
+}

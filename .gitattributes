@@ -1,0 +1,4 @@
+# Documentos y bases de datos binarias
+*.pdf binary
+*.bin binary
+*.sqlite3 binary

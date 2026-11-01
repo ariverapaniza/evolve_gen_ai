@@ -1,0 +1,55 @@
+{
+  "titulo": "Banco de pruebas de recuperación semántica - Proyecto Evolve",
+  "version": "1.0",
+  "advertencia": "Las etiquetas esperadas se fundamentan en el corpus ficticio y BOE. Estos casos no evalúan si una respuesta jurídica es correcta; solo la recuperación de secciones.",
+  "casos": [
+    {
+      "id": "S01", "tipo": "simple", "pregunta": "¿Qué cargo y qué funciones tiene el directivo según la cláusula primera de su contrato de alta dirección?",
+      "esperados": [{"documento_id": "DOC-001", "seccion_inicio": "PRIMERA."}]
+    },
+    {
+      "id": "S02", "tipo": "simple", "pregunta": "¿Qué bonus de permanencia está previsto para el directivo y en qué periodo se devenga?",
+      "esperados": [{"documento_id": "DOC-001", "seccion_inicio": "SEXTA."}]
+    },
+    {
+      "id": "S03", "tipo": "simple", "pregunta": "¿Qué pacto de no competencia postcontractual contiene el contrato de alta dirección?",
+      "esperados": [{"documento_id": "DOC-001", "seccion_inicio": "OCTAVA."}]
+    },
+    {
+      "id": "S04", "tipo": "simple", "pregunta": "¿Qué porcentaje de teletrabajo permite el contrato del analista de datos?",
+      "esperados": [{"documento_id": "DOC-002", "seccion_inicio": "SEGUNDA."}]
+    },
+    {
+      "id": "S05", "tipo": "simple", "pregunta": "¿Cuántos días laborables de vacaciones establece el contrato indefinido?",
+      "esperados": [{"documento_id": "DOC-002", "seccion_inicio": "SEXTA."}]
+    },
+    {
+      "id": "S06", "tipo": "simple", "pregunta": "¿Qué periodo de prueba se pacta en el contrato indefinido del analista de datos?",
+      "esperados": [{"documento_id": "DOC-002", "seccion_inicio": "SÉPTIMA."}]
+    },
+    {
+      "id": "S07", "tipo": "simple", "pregunta": "¿Qué establece el artículo 15 del Estatuto de los Trabajadores sobre la duración de los contratos?",
+      "esperados": [{"documento_id": "NOR-001", "seccion_inicio": "Artículo 15."}]
+    },
+    {
+      "id": "S08", "tipo": "simple", "pregunta": "¿Qué dispone el artículo 38 del Estatuto de los Trabajadores sobre las vacaciones anuales?",
+      "esperados": [{"documento_id": "NOR-001", "seccion_inicio": "Artículo 38."}]
+    },
+    {
+      "id": "S09", "tipo": "simple", "pregunta": "¿Cuál es el ámbito de aplicación del artículo 1 del Real Decreto 1382/1985 sobre alta dirección?",
+      "esperados": [{"documento_id": "NOR-002", "seccion_inicio": "Artículo 1."}]
+    },
+    {
+      "id": "S10", "tipo": "simple", "pregunta": "¿Qué regula el artículo 11 del Real Decreto 1382/1985 respecto a la extinción del contrato por voluntad del empresario?",
+      "esperados": [{"documento_id": "NOR-002", "seccion_inicio": "Artículo 11."}]
+    },
+    {
+      "id": "M01", "tipo": "multiple", "pregunta": "Compara las fechas de inicio de los contratos de alta dirección y del analista de datos indefinido.",
+      "esperados": [{"documento_id": "DOC-001", "seccion_inicio": "TERCERA."}, {"documento_id": "DOC-002", "seccion_inicio": "TERCERA."}]
+    },
+    {
+      "id": "M02", "tipo": "multiple", "pregunta": "Compara las vacaciones pactadas en el contrato indefinido con las vacaciones anuales del artículo 38 del Estatuto de los Trabajadores.",
+      "esperados": [{"documento_id": "DOC-002", "seccion_inicio": "SEXTA."}, {"documento_id": "NOR-001", "seccion_inicio": "Artículo 38."}]
+    }
+  ]
+}

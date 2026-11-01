@@ -1,0 +1,203 @@
+{
+  "titulo": "Banco de evaluación integral Evolve - asistencia jurídica documental ficticia",
+  "version": "1.0",
+  "notas": [
+    "Estos once casos son un conjunto académico pequeño, no una estimación estadística de precisión general.",
+    "Los controles automáticos comprueban formato, ruta, algunas expresiones y referencias; no demuestran respaldo semántico ni validez jurídica.",
+    "D10 necesita comprobar manualmente abstención por falta de documentación."
+  ],
+  "casos": [
+    {
+      "id": "D01",
+      "sesion": "eval_directa",
+      "pregunta": "Hola",
+      "ruta": "directa",
+      "usa_memoria": false,
+      "fuentes": [],
+      "esperados": [],
+      "texto_requerido": [],
+      "revision_manual": false
+    },
+    {
+      "id": "D02",
+      "sesion": "eval_cdaio",
+      "pregunta": "¿Qué cargo y funciones tiene el directivo en el contrato de alta dirección?",
+      "ruta": "documental",
+      "usa_memoria": false,
+      "fuentes": [],
+      "esperados": [
+        {
+          "documento_id": "DOC-001",
+          "seccion_inicio": "PRIMERA."
+        }
+      ],
+      "texto_requerido": [
+        "CDAIO"
+      ],
+      "revision_manual": true
+    },
+    {
+      "id": "D03",
+      "sesion": "eval_estatuto",
+      "pregunta": "¿Qué establece el artículo 15 del Estatuto de los Trabajadores sobre la duración del contrato?",
+      "ruta": "documental",
+      "usa_memoria": false,
+      "fuentes": [
+        "NOR-001"
+      ],
+      "esperados": [
+        {
+          "documento_id": "NOR-001",
+          "seccion_inicio": "Artículo 15."
+        }
+      ],
+      "texto_requerido": [
+        "indefinido"
+      ],
+      "revision_manual": true
+    },
+    {
+      "id": "D04",
+      "sesion": "eval_realdecreto",
+      "pregunta": "¿Cuál es el ámbito de aplicación del artículo 1 del Real Decreto 1382/1985 sobre alta dirección?",
+      "ruta": "documental",
+      "usa_memoria": false,
+      "fuentes": [
+        "NOR-002"
+      ],
+      "esperados": [
+        {
+          "documento_id": "NOR-002",
+          "seccion_inicio": "Artículo 1."
+        }
+      ],
+      "texto_requerido": [],
+      "revision_manual": true
+    },
+    {
+      "id": "D05",
+      "sesion": "eval_vacaciones",
+      "pregunta": "¿Cuántos días de vacaciones establece el contrato indefinido?",
+      "ruta": "documental",
+      "usa_memoria": false,
+      "fuentes": [
+        "DOC-002"
+      ],
+      "esperados": [
+        {
+          "documento_id": "DOC-002",
+          "seccion_inicio": "SEXTA."
+        }
+      ],
+      "texto_requerido": [],
+      "revision_manual": true
+    },
+    {
+      "id": "D06",
+      "sesion": "eval_memoria",
+      "pregunta": "¿Cuál es la fecha de inicio del contrato de alta dirección?",
+      "ruta": "documental",
+      "usa_memoria": false,
+      "fuentes": [],
+      "esperados": [
+        {
+          "documento_id": "DOC-001",
+          "seccion_inicio": "TERCERA."
+        }
+      ],
+      "texto_requerido": [
+        "1 de abril de 2026"
+      ],
+      "revision_manual": true
+    },
+    {
+      "id": "D07",
+      "sesion": "eval_memoria",
+      "pregunta": "¿Y qué indica el otro contrato?",
+      "ruta": "documental",
+      "usa_memoria": true,
+      "fuentes": [],
+      "esperados": [
+        {
+          "documento_id": "DOC-002",
+          "seccion_inicio": "TERCERA."
+        }
+      ],
+      "texto_requerido": [
+        "15 de abril de 2026"
+      ],
+      "revision_manual": true
+    },
+    {
+      "id": "D08",
+      "sesion": "eval_memoria",
+      "pregunta": "Compara ambas fechas de inicio",
+      "ruta": "comparacion",
+      "usa_memoria": true,
+      "fuentes": [],
+      "esperados": [
+        {
+          "documento_id": "DOC-001",
+          "seccion_inicio": "TERCERA."
+        },
+        {
+          "documento_id": "DOC-002",
+          "seccion_inicio": "TERCERA."
+        }
+      ],
+      "texto_requerido": [
+        "1 de abril de 2026",
+        "15 de abril de 2026"
+      ],
+      "revision_manual": true
+    },
+    {
+      "id": "D09",
+      "sesion": "eval_comparacion_vacaciones",
+      "pregunta": "Compara las vacaciones pactadas en el contrato indefinido con las vacaciones anuales del artículo 38 del Estatuto de los Trabajadores.",
+      "ruta": "comparacion",
+      "usa_memoria": false,
+      "fuentes": [
+        "DOC-002",
+        "NOR-001"
+      ],
+      "esperados": [
+        {
+          "documento_id": "DOC-002",
+          "seccion_inicio": "SEXTA."
+        },
+        {
+          "documento_id": "NOR-001",
+          "seccion_inicio": "Artículo 38."
+        }
+      ],
+      "texto_requerido": [],
+      "revision_manual": true
+    },
+    {
+      "id": "D11",
+      "sesion": "eval_aislamiento",
+      "pregunta": "¿Y qué indica el otro contrato?",
+      "ruta": "aclaracion",
+      "usa_memoria": false,
+      "fuentes": [],
+      "esperados": [],
+      "texto_requerido": [],
+      "revision_manual": false
+    },
+    {
+      "id": "D10",
+      "sesion": "eval_fuera_del_corpus",
+      "pregunta": "¿Cuántos satélites artificiales ha lanzado la empresa del contrato de alta dirección?",
+      "ruta": "documental",
+      "usa_memoria": false,
+      "fuentes": [
+        "DOC-001"
+      ],
+      "esperados": [],
+      "texto_requerido": [],
+      "revision_manual": true,
+      "requiere_abstencion": true
+    }
+  ]
+}

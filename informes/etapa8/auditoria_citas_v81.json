@@ -1,0 +1,81 @@
+{
+  "origen": "informes\\etapa8\\evaluacion_integral.json",
+  "resumen": {
+    "casos": 11,
+    "ok_estructurales_revisados": 9,
+    "a_revisar": 2
+  },
+  "resultados": [
+    {
+      "id": "D01",
+      "estado_original": "OK",
+      "estado_revisado": "OK",
+      "fallos": []
+    },
+    {
+      "id": "D02",
+      "estado_original": "OK",
+      "estado_revisado": "OK",
+      "fallos": []
+    },
+    {
+      "id": "D03",
+      "estado_original": "OK",
+      "estado_revisado": "OK",
+      "fallos": []
+    },
+    {
+      "id": "D04",
+      "estado_original": "OK",
+      "estado_revisado": "OK",
+      "fallos": []
+    },
+    {
+      "id": "D05",
+      "estado_original": "OK",
+      "estado_revisado": "REVISAR",
+      "fallos": [
+        "Las citas del texto ['F1', 'F2', 'F4'] no coinciden con las mostradas ['F2']"
+      ]
+    },
+    {
+      "id": "D06",
+      "estado_original": "OK",
+      "estado_revisado": "OK",
+      "fallos": []
+    },
+    {
+      "id": "D07",
+      "estado_original": "OK",
+      "estado_revisado": "OK",
+      "fallos": []
+    },
+    {
+      "id": "D08",
+      "estado_original": "OK",
+      "estado_revisado": "OK",
+      "fallos": []
+    },
+    {
+      "id": "D09",
+      "estado_original": "OK",
+      "estado_revisado": "REVISAR",
+      "fallos": [
+        "Las citas del texto ['F3', 'F6', 'F7'] no coinciden con las mostradas ['F3', 'F6']"
+      ]
+    },
+    {
+      "id": "D11",
+      "estado_original": "OK",
+      "estado_revisado": "OK",
+      "fallos": []
+    },
+    {
+      "id": "D10",
+      "estado_original": "OK",
+      "estado_revisado": "OK",
+      "fallos": []
+    }
+  ],
+  "advertencia": "Sin validación factual. El informe de evaluación original se conserva intacto."
+}
