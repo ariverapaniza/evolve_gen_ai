@@ -21,7 +21,7 @@ Se implementó un prototipo de pregunta-respuesta especializado en dos contratos
 | Memoria conversacional | Envolvente `scripts/etapa7_memoria.py` y `InMemorySaver` por `thread_id` |
 | Chat en notebook | Sección 8.3 del `.ipynb`; activación explícita para evitar API automática |
 | Cinco preguntas documentadas | Sección 6 del notebook, con fuentes y respuestas principales observadas |
-| Presentación oral 5–10 minutos | Preparación prevista como Etapa 10 |
+| Presentación oral 5–10 minutos | Completada. Presentación y vídeo entregados por separado, fuera de GitHub. |
 
 ## Datos, procedencia y calidad
 
@@ -44,6 +44,8 @@ El grafo interno de LangGraph decide si responde directamente a saludos/ayuda o 
 **Recuperación (Etapa 4):** sobre 10 preguntas simples: Hit@1 = 0,80; Hit@5 = 1,00; MRR@5 = 0,8833. No son medidas de exactitud factual. Para dos preguntas de fuentes múltiples, el sistema de búsquedas dirigidas por documento recuperó ambas evidencias en 2/2 casos con hasta 5 resultados por fuente; esa cifra no equivale al Hit@5 global.
 
 **Pruebas de integración (hasta Etapa 8.1):** 141/141 pruebas en Windows del alumno. Validan casos cubiertos por tests, no todas las respuestas posibles.
+
+**Validación final de entrega (Etapa 9):** 153/153 pruebas automatizadas superadas. Notebook, corpus, ChromaDB y evidencias validados mediante el preflight offline.
 
 **Evaluación integral histórica (Etapa 8):** 11 casos; el evaluador inicial no detectó errores estructurales. La auditoría 8.1 posterior localizó 2 incidencias de trazabilidad de citas (D05, D09), y 9 casos sin incidencias estructurales adicionales detectadas. El control mejorado pasa tests; sin una nueva evaluación del LLM no debe afirmarse que los registros antiguos se corrigieron retroactivamente.
 
